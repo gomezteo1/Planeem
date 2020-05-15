@@ -1,0 +1,175 @@
+/*preload*/
+#page-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background: #FFF none repeat scroll 0% 0%;
+    z-index: 99999;
+}
+#page-loader .preloader-interior {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #238276;
+
+
+
+    -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+    animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+#page-loader .preloader-interior:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #0AB5A0;
+
+    -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+    animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+
+#page-loader .preloader-interior:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #fb7323;
+
+    -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+    animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+
+@-webkit-keyframes spin {
+    0%   { 
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+    100% {
+        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);  /* IE 9 */
+        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+}
+@keyframes spin {
+    0%   { 
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+    100% {
+        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);  /* IE 9 */
+        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+}
+
+
+
+
+
+/*bar */
+#icono {
+    position: relative;
+    width: 4%;
+    bottom: 20px;
+    left: 420px;
+}
+
+.barra1{
+    background-color: #0AB5A0 !important;
+
+}
+
+.barra2{
+    background-color: #238276 !important;
+}
+
+.circulo1{
+    width: 5%;
+    height: 5%;
+    border-radius: 100%;
+    background-color: #0AB5A0;
+    position: relative;
+    bottom: 122px;
+    left: -5px;
+}
+
+.circulo2{
+    width: 5%;
+    height: 5%;
+    border-radius: 100%;
+    background-color: #0AB5A0;
+    position: relative;
+    bottom: 169px;
+    left: 322px;
+}
+
+.circulo3{
+    width: 5%;
+    height: 5%;
+    border-radius: 100%;
+    background-color: #0AB5A0;
+    position: relative;
+    bottom: 216px;
+    left: 696px;
+}
+
+.circulo4{
+    width: 5%;
+    height: 5%;
+    border-radius: 100%;
+    background-color: #0AB5A0;
+    position: relative;
+    bottom: 263px;
+    left: 1065px;
+}
+
+.div_barra {
+    width: 51% !important;
+    position: relative !important;
+    left: 4% !important;
+    bottom: -20px !important;
+    border-radius: 67px !important;
+    background: #238276;
+}
+.div_barra3{
+    width: 43% !important;
+    position: relative !important;
+    left: 2% !important;
+    bottom: -15px !important;
+    border-radius: 67px !important;
+    background: #238276;
+}
+.div_barra4{
+    width: 27% !important;
+    position: relative !important;
+    left: 2% !important;
+    bottom: -50px !important;
+    border-radius: 67px !important;
+}
+/*_________________________________________________________________________________*/
+.alert{
+    width: 50% !important;
+    position: relative !important;
+    left: 13% !important;
+    bottom: 75px !important;
+    border-radius: 67px !important;
+}

@@ -1,0 +1,819 @@
+/*RESPONSIVE TABLET*/
+.campo{
+  cursor:auto;
+}
+.vision3TexArea{
+  width: 100%;
+  height: 80%;
+  background: white;
+}
+@media only screen and (max-width: 768px){
+  .imgpensamiento{
+    left: 20%;
+    width: 58%;
+  }
+  .titulopensa {
+    font-size: 14px !important;
+    top: 21% !important;
+  }
+  .SegundoContenlist{
+    height: 580px !important;
+    width: 28% !important;
+    margin-top: -2% !important;
+  }
+  .SegundoConten{
+    height: 517px !important;
+    width: 27% !important;
+  }
+  .items li{
+    margin: 21px 0;
+  }
+  .resumen{
+    width: 69%;
+    left: 19%;
+    height: 440px;
+  }
+  .exportar{
+    font-size: 1.0em !important;
+    top: 75%;
+  }
+  .para{
+    font-size: 10px !important;
+    margin-top: -43% !important;
+    width: 66% !important;
+  }
+  .menu_header {
+    width: 7%;
+  }
+  .necesidad{
+    font-size: 10px;
+    margin-top: -42%;
+  }
+  .quienes{
+    font-size: 10px;
+    margin-top: -44%;
+  }
+  .Horizonte{
+    font-size: 12px;
+    margin-top: -45%;
+    margin-left: 31%;
+  }
+  .cual{
+    font-size: 10px;
+    margin-top: -41% !important;
+  }
+  .buscamos{
+    font-size: 10px;
+    margin-top: -45%;
+  }
+  .trabajamos{
+    font-size: 10px;
+    margin-top: -45%;
+  }
+  .elemento{
+    font-size: 10px;
+    margin-top: -41% !important;
+    line-height: 8px;
+  }
+  .parrafito{
+    margin-top: 28%;
+    width: 55%;
+    margin-left: 36%;
+  }
+  .contenedor3 {
+    width: 500px !important;
+    margin-top: 7% !important;
+    margin-left: 29% !important;
+  }
+  #icono{
+    bottom: 5px;
+  }
+  .desafiante{
+    font-size: 10px;
+    margin-left: 30%;
+    margin-top: -46%;
+  }
+  .formula3{
+    font-size: 11px;
+  }
+  .formula2{
+    font-size: 11px;
+    margin-top: -3%;
+  }
+  .editavalor{
+    left: 5% !important;
+    height: 345px !important;
+  }
+  .contenedor8{
+    width: 74% !important;
+  }
+  .formulaMision{
+    font-size: 10px;
+  }
+  .formulaDesafiante{
+    font-size: 11px;
+  }
+  .Horizonte {
+    font-size: 9px;
+    margin-left: 30%;
+    margin-top: -45%;
+  }
+  .formula{
+    font-size: 11px;
+  }
+  .hacemos{
+    font-size: 10px;
+    margin-top: -45%;
+  }
+  .hara{
+    font-size: 10px;
+    width: 66%;
+    margin-top: -41%;
+  }
+  .Mision{
+    height: 388px !important;
+  }
+  .Mision1{
+    width: 68%;
+    height: 405px;
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .SegundoContenlist{
+    height: 610px;
+    width: 28%;
+    margin-top: -3%;
+  }
+  .SegundoConten{
+    height: 605px;
+    width: 28%;
+  }
+  .desafiante {
+    font-size: 15px;
+    width: 69%;
+    margin-top: -35%;
+  }
+  .imgpensamiento{
+    top: 111px;
+    left: 20%;
+    width: 58%;
+  }
+  .items li{
+    margin: 21px 0;
+  }
+  .titulopensa{
+    font-size: 19px;
+    top: 27.5%;
+    left: 42%;
+  }
+  .parrafito{
+    margin-top: 21%;
+    width: 55%;
+    margin-left: 36%;
+  }
+  .siguiente{
+    font-size: 1em !important;
+    width: 18%;
+  }
+  .Ahora{
+    width: 18%;
+    left: 50%;
+    font-size: 1.0em !important;
+  }
+  .contenedor4{
+    width: 68%;
+    margin-top: 8%;
+  }
+  .contenedor3{
+    width: 69%;
+    margin-top: 11% !important;
+  }
+  .Mision1{
+    width: 68%;
+    margin-top: 3%;
+    font-size: 0.9em;
+    height: 410px;
+  }
+  .para{
+    font-size: 14px;
+    margin-top: -36%;
+    width: 66%;
+  }
+  .necesidad{
+    font-size: 14px;
+    margin-top: -35%;
+    width: 66%;
+  }
+  .quienes{
+    font-size: 14px;
+    margin-top: -35%;
+  }
+  .Horizonte{
+    font-size: 14px;
+    margin-top: -35%;
+    width: 68%;
+  }
+  .buscamos{
+    font-size: 14px;
+    margin-top: -35%;
+  }
+  .formula3{
+    font-size: 14px;
+    width: 66%;
+  }
+  .formula{
+    font-size: 14px;
+    width: 68%;
+  }
+  .formulaDesafiante{
+    font-size: 14px;
+    width: 66%;
+    margin-top: -3%;
+  }
+  .formula2{
+    font-size: 14px;
+    width: 69%;
+    margin-top: -4%;
+  }
+  .formulaMision{
+    font-size: 14px;
+    width: 66%;
+    margin-top: -4%;
+  }
+  .div_barra{
+    left: 9% !important;
+    bottom: -15px !important;
+  }
+  #icono {
+    width: 4%;
+    bottom: 11px;
+    left: 32% !important;
+  }
+  .icon-info {
+    font-size: 2em;
+  }
+  .anterior{
+    font-size: 1em !important;
+    width: 18%;
+  }
+  .cual{
+    font-size: 14px;
+    margin-top: -33% !important;
+    width: 68%;
+    left: 1%;
+  }
+  .elemento{
+    font-size: 14px;
+    margin-top: -36% !important;
+    width: 68%;
+    line-height: 17px;
+  }
+  .contenedor5{
+    width: 69%;
+    margin-top: 4%;
+  }
+  .resumen{
+    left: 18%;
+    height: 440px;
+  }
+  .editar {
+    width: 18%;
+  }
+  .Mision{
+    width: 68%;
+    margin-top: 3%;
+    height: 392px;
+  }
+  .trabajamos{
+    font-size: 14px;
+    margin-top: -35%;
+    margin-left: 31%;
+  }
+  .hacemos{
+    font-size: 14px;
+    width: 66%;
+    margin-left: 31%;
+    margin-top: -35%;
+  }
+  .hara{
+    font-size: 14px;
+    width: 66%;
+    margin-left: 31%;
+    margin-top: -34%;
+  }
+  .desafiante{
+    font-size: 14px;
+    width: 69%;
+    margin-top: -35%;
+    left: 0%;
+  }
+  .contenedor8{
+    width: 70%;
+    margin-top: 2%;
+    margin-left: 29%;
+    height: 490px;
+  }
+  .contenedor9{
+    width: 48%;
+    margin-top: 17%;
+    margin-left: 37%;
+    height: 288px;
+  }
+  .editavalor{
+    overflow-y: scroll;
+    width: 67%;
+    top: 26%;
+    right: -22%;
+    left: 7%;
+    height: 417px;
+  }
+}
+/*responsive pc*/
+@media only screen and (max-width: 1360px){
+  .SegundoContenlist{
+    height: 643px;
+    width: 21%;
+    margin-top: -2%;
+  }
+  .SegundoConten{
+    height: 638px;
+    width: 21%;
+  }
+  .imgpensamiento{
+    top: 111px;
+    left: 20%;
+    width: 58%;
+  }
+  .titulopensa{
+    font-size: 22px;
+    top: 30.5%;
+    left: 47%;
+  }
+  .parrafito{
+    margin-top: 20%;
+    width: 55%;
+    margin-left: 36%;
+  }
+  .siguiente{
+    font-size: 1em !important;
+    width: 15%;
+  }
+  .Ahora{
+    width: 15%;
+    left: 50%;
+    font-size: 1.0em !important;
+  }
+  .contenedor4{
+    width: 68%;
+    margin-top: 11%;
+    margin-left: 27%;
+  }
+  .contenedor3{
+    width: 69%;
+    margin-top: 9% !important;
+  }
+  .Mision1{
+    width: 68%;
+    margin-top: 5%;
+    font-size: 1em;
+    margin-left: 29%;
+  }
+  .para{
+    font-size: 14px;
+    margin-top: -27%;
+    width: 67%;
+  }
+  .necesidad{
+    font-size: 14px;
+    margin-top: -28%;
+    width: 66%;
+  }
+  .quienes{
+    font-size: 15px;
+    margin-top: -28%;  
+  }
+  .Horizonte{
+    font-size: 15px;
+    margin-top: -29%;
+    width: 67%;
+  }
+  .buscamos{
+    font-size: 15px;
+    margin-top: -28%;
+  }
+  .formula3{
+    font-size: 14px;
+    width: 66%;
+    margin-top: -1%;
+  }
+  .formula{
+    font-size: 14px;
+    width: 68%;
+  }
+  .formulaDesafiante{
+    font-size: 14px;
+    width: 66%;
+    margin-top: -2%;
+  }
+  .formula2{
+    font-size: 14px;
+    width: 69%;
+    margin-top: -3%;
+  }
+  .formulaMision{
+    font-size: 14px;
+    width: 66%;
+    margin-top: -3%;
+  }
+  .div_barra{
+    left: 9% !important;
+    bottom: -9px !important;
+  }
+  #icono {
+    width: 4%;
+    bottom: 27px;
+    left: 32% !important;
+  }
+  .anterior{
+    font-size: 1em !important;
+    width: 15%;
+  }
+  .cual{
+    font-size: 14px;
+    margin-top: -27% !important;
+    width: 68%;
+  }
+  .elemento{
+    font-size: 14px;
+    margin-top: -28% !important;
+    width: 67%;
+    line-height: 17px;
+  }
+  .contenedor5{
+    width: 69%;
+    margin-top: 6%;
+    margin-left: 29%;
+  }
+  .editar {
+    width: 15%;
+  }
+  .Mision{
+    width: 70%;
+    margin-top: 6%;
+    margin-left: 28%;
+  }
+  .trabajamos{
+    font-size: 15px;
+    margin-top: -28%;
+  }
+  .hacemos{
+    font-size: 15px;
+    width: 66%;
+    margin-top: -28%;
+  }
+  .resumen{
+    height: 440px;
+  }
+  .hara{
+    font-size: 15px;
+    width: 66%;
+    margin-top: -28%;
+  }
+  .contenedor8{
+    width: 60%;
+    margin-top: 4%;
+    margin-left: 31%;
+    height: 500px;
+  }
+  .contenedor9{
+    width: 48%;
+    margin-top: 8%;
+    margin-left: 36%;
+    height: 370px;
+  }
+  .editavalor{
+    overflow-y: scroll;
+    width: 67%;
+    top: 26%;
+    right: -22%;
+    left: 1%;
+    height: 398px;
+  }
+}
+/*responsive pc*/
+@media only screen and (min-width: 1361px) and (max-width: 1400px){
+  .contboton option{
+    width: 87%;
+  }
+  .SegundoContenlist{
+    height: 645px;
+    width: 22%;
+    margin-top: -2%;
+  }
+  .SegundoConten{
+    height: 648px;
+    width: 22%;
+    margin-top: -6%;
+  }
+  .imgpensamiento{
+    top: 111px;
+    left: 8%;
+    width: 58%;
+  }
+  .resumen{
+    height: 460px;
+  }
+  .titulopensa{
+    font-size: 22px;
+    top: 30.5%;
+    left: 47%;
+  }
+  .parrafito{
+    margin-top: 19%;
+    width: 55%;
+    margin-left: 36%;
+  }
+  .siguiente{
+    font-size: 1em !important;
+    width: 15%;
+  }
+/*  .Ahora{
+    width: 15%;
+    left: 44%;
+    margin-top: 4% !important;
+    font-size: 1.0em !important;
+  }*/
+  .contenedor4{
+    width: 68%;
+    margin-top: 11%;
+    margin-left: 27%;
+  }
+  .contenedor3{
+    width: 69%;
+    margin-top: 9% !important;
+    margin-left: 27%;
+  }
+  .Mision1{
+    width: 83%;
+    height: 345px;
+  }
+  .para{
+    margin-top: -25%;
+    width: 81%;
+  }
+  .necesidad{
+    margin-top: -27%;
+    width: 80%;
+  }
+  .quienes{
+    margin-top: -28%;
+  }
+  .Horizonte{
+    margin-top: -26%;
+    width: 81%;
+  }
+  .buscamos{
+    margin-top: -28%;
+  }
+  .formula3{
+    width: 81%;
+    /*margin-top: -1%;*/
+  }
+  .formula{
+    width: 81%;
+  }
+  .formulaDesafiante{
+    width: 81%;
+    margin-top: -2%;
+  }
+  .formula2{
+    width: 81%;
+    /*margin-top: -3%;*/
+  }
+  .formulaMision{
+    width: 81%;
+    margin-top: -3%;
+  }
+  .div_barra {
+    left: 9% !important;
+    bottom: 12px !important;
+  }
+  #icono {
+    width: 4%;
+    bottom: 47px;
+    left: 32% !important;
+  }
+  .icon-info {
+    font-size: 2.5em;
+  }
+  .anterior{
+    font-size: 1em !important;
+    width: 15%;
+  }
+  .cual{
+    margin-top: -26% !important;
+    width: 81%;
+  }
+  .elemento{
+    margin-top: -27% !important;
+    width: 81%;
+    line-height: 19px;
+  }
+  .contenedor5{
+    width: 82%;
+    height: 355px;
+  }
+  .editar {
+    width: 15%;
+  }
+  .Mision{
+    width: 84%;
+    margin-left: 8%;
+  }
+  .trabajamos{
+    margin-top: -28%;
+  }
+  .hacemos{
+    margin-top: -28%;
+    font-size: 15px;
+  }
+  .hara{
+    width: 81%;
+    margin-top: -27%;
+  }
+  .hara2{
+    width: 81%;
+    margin-top: -29%;
+  }
+  .desafiante{
+    width: 81%;
+    margin-top: -26%;
+  }
+}
+/*responsive pc*/
+@media only screen and (max-width: 1530px){
+  .Mision{
+    margin-top: 5%;
+  }
+  .hover{
+    right:0%;
+    z-index: 4;
+  }
+  .parrafito{
+    margin-top: 17%;
+    width: 74%;
+    margin-left: 14%;
+  }
+  .SegundoContenlist{
+    height: 517px;
+    width: 22%;
+    margin-top: 0%;
+    margin-left: -19.5%;  
+  }
+  .titulopensa{
+    font-size: 23px;
+    top: 195px;    
+    left: 38%;
+  }
+  .contenedor4{
+    width: 79%;
+    margin-top: 5%;
+    margin-left: 11%;
+  }
+  .contenedor3{
+    width: 1100px;
+    /*margin-top: 4% !important;*/
+    margin-left: 13%;
+  }
+  .SegundoConten{
+    height: 513px;
+    margin-top: 0%;
+    width: 25%;
+    margin-left: -22%;
+  }
+  .contenedor8{
+    width: 67%;
+    margin-top: -2%;
+    height: 500px;
+  }
+  .contenedor9{
+    height: 390px;
+  }
+  .editavalor{
+    overflow-y: scroll;
+    width: 85%;
+    top: 26%;
+    right: 1%;
+    left: 1%;
+    height: 390px;
+  }
+  .clos{
+    margin-top: 4%;
+  }
+}
+/*responsive pc*/
+@media only screen and (max-width: 1920px){
+
+  .Mision{
+    margin-top: 8%;
+  }
+  .progress {
+    background-color: #238276;
+    width: 50%;
+    margin: 63px auto;
+  }
+  .hover{
+    right:0%;
+    z-index: 4;
+  }
+  .parrafito{
+    margin-top: 12%;
+    width: 74%;
+    margin-left: 16%;
+  }
+  .SegundoContenlist{
+    height: 517px;
+    width: 22%;
+    margin-top: 0%;
+    margin-left: -19.5%;  
+  }
+  .titulopensa{
+    line-height: 26px;
+  }
+  .contenedor4{
+    margin-top: 9%;
+  }
+  .contenedor3{
+    width: 1187px;
+    margin-top: 13%;
+
+  }
+  .SegundoConten{
+    height: 700px;
+    margin-top: 0%;
+    width: 24%;
+    margin-left: -22%;
+  }
+  .editavalor{
+    height: 545px;
+  }
+  .clos{
+    margin-top: 4%;
+  }
+  .para {
+    width: 71%;    
+    text-align: justify;
+  }
+  .elemento {
+      margin-top: -23% !important;
+      width: 70%;
+      text-align: justify;
+  }
+  .quienes {
+      margin-top: -23%;
+  }
+  .buscamos {
+      margin-top: -22%;
+  }
+  .trabajamos{
+      margin-top: -23%;
+  }
+  .hacemos {
+      margin-top: -24%;
+      width: 71%;
+  }
+  .enunciadoHara {
+      margin-top: -25%;
+  }
+  .hara {
+    margin-top: -21%;
+  }
+  .hara2 {
+    margin-top: -25%;
+  }
+  .contenedor5 {
+    margin-top: 9%;
+  }
+  .desafiante {
+    margin-top: -23%;
+    width: 70%;
+  }
+  .contenedor8 {
+    margin-top: 4%;
+  }
+  .contenedor9 {
+    height: 560px;
+  }
+  .resumen {
+    height: 566px;
+  }
+  .Tercer_Contenedor {
+    height: 50em;
+  }
+  .tituloestra {
+    top: 217px;
+  }
+}
+
+

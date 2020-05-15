@@ -1,0 +1,411 @@
+
+
+* {
+    font-family: louis, sans-serif !important;
+}
+
+.btn-link {
+    text-decoration: none !important;
+}
+
+.tituloModal {
+    margin-left: 33%;
+    font-weight: bold;
+}
+
+.contenedor {
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10%;
+    background: #0AB5A0;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    -webkit-box-shadow: 10px 5px 20px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 5px 20px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 5px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.btn-verde:hover {
+    position: relative;
+    background-color: #00544A;
+    color: white;
+}
+
+span {
+    cursor: pointer !important;
+}
+
+.icon-plus {
+    margin-right: 19px;
+    background-color: #00544A;
+    color: white;
+    border-radius: 40px;
+    font-size: 25px;
+    padding: 8px 8px;
+}
+
+.btn-verde {
+    width: 100%;
+    position: relative;
+    color: white !important;
+    font-weight: bold;
+}
+
+.inicia {
+    color: white;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.contenedor i {
+    color: #00544A;
+    position: absolute;
+    right: 23px;
+    top: 9px;
+    font-size: 2em;
+}
+
+.contenedor2 {
+    background-color: #238276;
+    width: 390px;
+    z-index: -1;
+    margin-left: 22px;
+    border-radius: 5px;
+    margin-top: -5px;
+}
+
+body {
+    font-family: louis;
+    background-size: cover;
+    background-image: url("/img/fondoLogo.jpg") !important;
+}
+
+.menu img {
+    width: 100px;
+    height: 100px;
+}
+
+.nav-link span {
+    color: white;
+    margin-left: 5px;
+    padding: 4px 4px;
+    font-size: 18px;
+    background-color: #238276;
+    border-radius: 30px;
+}
+
+.nav-item a {
+    font-size: 20px;
+}
+
+.guardar {
+    position: relative;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+.containers{
+    width: 42% !important;
+  }
+}
+.containers {
+    margin-top: 54px;
+    z-index: 3;
+    margin-left: 3%;
+    position: absolute;
+    width: 30%;
+}
+
+.bg-verdeclaro {
+    background-color: #0AB5A0;
+    -webkit-box-shadow: 10px 10px 19px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 19px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 19px -5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+
+.bg-verdemuyoscuro {
+    background-color: #00544A;
+}
+
+.icon-info {
+    background-color: #FC7323;
+    border-radius: 40px;
+    position: absolute;
+    margin-left: 91%;
+    top: 103px;
+    font-size: 2.5em;
+    color: white;
+}
+
+.bg-verdeoscuro {
+    background-color: #238276;
+    margin-top: -7%;
+}
+
+.bajar {
+    margin-top: 10%;
+    margin-left: 50%;
+}
+
+.bordered {
+    border-radius: 20px;
+}
+
+
+/*estilos 2*/
+
+.inicia {
+    color: white;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.contenedor i {
+    color: #00544A;
+    position: absolute;
+    right: 23px;
+    top: 9px;
+    font-size: 2em;
+}
+
+.contenedor2 {
+    background: #238276;
+    width: 390px;
+    padding: 30px 24px 13px 24px;
+    position: relative;
+    z-index: -1;
+    margin-left: 22px;
+    border-radius: 5px;
+    margin-top: -5px;
+}
+
+.menu img {
+    width: 100px;
+    height: 100px;
+}
+
+.ayuda {
+    font-weight: bold;
+    font-family: louis;
+    width: 148px;
+    height: 50px;
+    background: #FC7323;
+    color: white;
+    margin-top: 50px;
+    margin-left: 22px;
+    font-size: 1.5em;
+    border-radius: 24px;
+    -webkit-box-shadow: 9px 3px 14px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 3px 14px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 9px 3px 14px 2px rgba(0, 0, 0, 0.75);
+}
+
+.guardar {
+    font-weight: 500;
+    font-family: louis;
+    width: 174px;
+    height: 44px;
+    background: #0AB5A0;
+    color: white;
+    margin-top: -340px;
+    margin-left: 47px;
+    font-size: 1em;
+    border-radius: 9px;
+}
+
+.titulo2 {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 3%;
+    text-align: center;
+    z-index: 1000;
+}
+
+.fa-info-circle {
+    color: red;
+    position: absolute;
+    right: 51px;
+    top: 103px;
+    font-size: 2em;
+}
+
+.propuesta {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.modal-header {
+    border-bottom: 0px solid #dee2e6 !important;
+}
+
+.modal-footer {
+    border-top: 0px solid #dee2e6 !important;
+}
+
+.modal-content {
+    border-radius: 3.3rem !important;
+    width: 738px;
+    height: 318px;
+    background: white;
+    margin-top: 45%;
+    margin-left: -90px;
+}
+
+.modal-content10 {
+    border-radius: 3.3rem !important;
+    width: 738px;
+    height: 484px;
+    background: white;
+    margin-top: 32%;
+    margin-left: -90px;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+    border: 0;
+    -webkit-border-radius: .125rem;
+    border-radius: .125rem;
+    list-style: disc !important;
+}
+
+#contenido1 {
+    border-radius: 15px;
+    color: white;
+}
+
+
+/*estilos para los gif*/
+
+.gif {
+    width: 15%;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.gif1 {
+    position: absolute;
+    margin-left: 47%;
+    margin-top: 2%;
+}
+
+.gif2 {
+    position: absolute;
+    margin-left: 76%;
+    margin-top: 5%;
+    width: 14%;
+}
+
+.gif3 {
+    position: absolute;
+    margin-left: 75%;
+    margin-top: 23%;
+}
+
+.gif4 {
+    position: absolute;
+    margin-left: 48%;
+    width: 14%;
+    margin-top: 23%;
+}
+
+.gifcentro {
+    position: absolute;
+    margin-top: 11%;
+    width: 19%;
+    margin-left: 59%;
+    z-index: 1
+}
+
+.sectiongif {
+    margin-top: 60px;
+}
+
+
+/*terminan estilos para gif*/
+
+
+/*clases para el hover*/
+
+.static {
+    position: absolute;
+    background: white;
+}
+
+.static:hover {
+    opacity: 0;
+}
+
+.espacio:hover {
+    cursor: pointer;
+}
+
+
+/*termina clases para el hover*/
+
+
+/*parte del responsive */
+
+@media screen and (max-width: 800px) {
+    .bg-verdeoscuro {
+        margin-top: -6%;
+    }
+    .containers {
+        position: relative;
+        width: 90%;
+        margin-left: 6%;
+    }
+    .gif {
+        width: 22%;
+        cursor: pointer;
+        border-radius: 100px;
+    }
+    .sectiongif {
+        margin-top: 40px;
+        margin-left: -100px;
+    }
+    .gif1 {
+        position: absolute;
+        margin-left: 39%;
+        margin-top: 2%;
+    }
+    .gif2 {
+        position: absolute;
+        margin-left: 88%;
+        margin-top: 3%;
+        width: 20%;
+    }
+    .gif3 {
+        position: absolute;
+        margin-left: 87%;
+        margin-top: 28%
+    }
+    .gif4 {
+        position: absolute;
+        margin-left: 43%;
+        width: 20%;
+        margin-top: 32%;
+    }
+    .gifcentro {
+        position: absolute;
+        margin-top: 11%;
+        width: 30%;
+        margin-left: 59%;
+        z-index: 1
+    }
+    .modal-content {
+        border-radius: 3.3rem !important;
+        width: 112%;
+        height: 50%;
+        margin-top: 22%;
+        margin-left: -6%;
+    }
+    .icon-info {
+        margin-left: 83%;
+    }
+}
+
+
+/*termina parte del responsive*/
