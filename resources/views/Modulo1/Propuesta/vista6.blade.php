@@ -36,10 +36,10 @@
   <div class="modal-dialog modal-dialog-scrollable" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle" style="margin-left: 252px; font-weight: bold;">PROPUESTA DE VALOR</h5>
+        <h5 class="modal-title" id="exampleModalCenterTitle" style="margin-left: 252px; font-weight: bold;">Propuesta De Valor</h5>
         <span class="icon-cancel-circle" style="color:#FC7323; font-size: 32px; cursor: pointer; margin-top: 4px;
         margin-left: 10%;" data-dismiss="modal" aria-label="Close"></span>
-        
+
       </div>
       <div class="modal-body">
         <p>Son las expectativas que de forma unilateral el consumidor se forma en su mente, es lo que el cliente
@@ -47,7 +47,7 @@
           mayor parte son las experiencias personales del consumidor y las condiciones generales del mercado lo
           que determinan sus expectativas personales a la hora de comprar
           a través de ella determinarás lo que diferencia tu producto o servicio de la competencia, además que te
-        ayudará a encontrar la forma en que atenderás a tus clientes o segmento de mercado. (Saavedra, 2017)</p>
+        ayudará a encontrar la forma en que atenderás a tus clientes o segmento de mercado. (Saavedra, 2017..... vista 6)</p>
       </div>
     </div>
   </div>
@@ -62,7 +62,7 @@
     //Almacenamiento del localStorage
     var miDato = document.getElementById('Propuesta3').value;
     localStorage.setItem('Propuesta',miDato);
-    //Porcentaje para la barra de progreso 
+    //Porcentaje para la barra de progreso
     var numero = localStorage.getItem('numero');
 
     if(numero > 20){
@@ -79,7 +79,7 @@
   //// Muestra los datos del  localStorage
   var Propuesta = localStorage.getItem('Propuesta');
   var hola = document.getElementById('Propuesta3').innerHTML =Propuesta;
-  //Muestra el porcentaje y el progreso, de la barra de progreso (0%) 
+  //Muestra el porcentaje y el progreso, de la barra de progreso (0%)
   var Progreso = localStorage.getItem('Progreso');
   document.getElementById("id").style.width=Progreso;
   document.getElementById("id").innerHTML = Progreso;
@@ -95,19 +95,19 @@
                       $('.items li').click(function () {
                         $('.items li').removeClass("acti");
                         $(this).addClass("acti");
-                        
-                        
+
+
                       })
-                      
+
                       $('.valores').mouseenter(function(){
                         let mensaje = $(this).attr('mensaje');
-                    
+
                         $('.hover').html(`<p>${mensaje}</p>`)
                         $('.hover').show()
-                        
+
                       })
                       $('.valores').mouseleave(function(){
-                        
+
                         $('.hover').hide()
                       })
                     })

@@ -38,7 +38,7 @@
 						<b style="color: #0AB5A0">Ejemplo: “somos una empresa colombiana”</b><br>
 						<b style="color: #0AB5A0">Ejemplo: “somos una organización joven”</b></p>
 					</div>
-					<p class="formula2">Fórmula:<b style="color: #0AB5A0"> ¿Quiénes somos?</b> = identidad, legitimidad + <b style="color: #0AB5A0">¿Qué buscamos?</b> = Propósitos + <b style="color: #0AB5A0">¿Para quienes trabajamos?</b> = Clientes  + <b style="color: #0AB5A0">¿Por qué lo hacemos?</b> = Productos, Servicios, Valores, Principios, Motivaciones</p>
+					<p class="formula2">Fórmula para la Misión:<b style="color: #0AB5A0"><br> ¿Quiénes somos?</b> = identidad, legitimidad +<br> <b style="color: #0AB5A0">¿Qué buscamos?</b> = Propósitos +<br> <b style="color: #0AB5A0">¿Para quienes trabajamos?</b> = Clientes  + <br><b style="color: #0AB5A0">¿Por qué lo hacemos?</b> = Productos, Servicios, Valores, Principios, Motivaciones</p>
 				</div>
 				<a onclick="paso2()"   style="color:white;"   class="next siguiente btn btn-planeem waves-effect waves-light">Siguiente</a>
 			</fieldset>
@@ -51,7 +51,7 @@
 							<b style="color: #0AB5A0">Ejemplo: “somos una empresa colombiana dedicada a realizar pruebas de software”</b><br>
 							<b style="color: #0AB5A0">Ejemplo: “somos una organización joven que brinda asesoría comercial”</b></p>
 						</div>
-						<p class="formula2">Fórmula:<b style="color: #0AB5A0"> ¿Quiénes somos?</b> = identidad, legitimidad + <b style="color: #0AB5A0">¿Qué buscamos?</b> = Propósitos + <b style="color: #0AB5A0">¿Para quienes trabajamos?</b> = Clientes + <b style="color: #0AB5A0">¿Por qué lo hacemos?</b> = Productos, Servicios, Valores, Principios, Motivaciones</p>
+						<p class="formula2">Fórmula para la Misión:<b style="color: #0AB5A0"><br> ¿Quiénes somos?</b> = identidad, legitimidad + <b style="color: #0AB5A0">¿Qué buscamos?</b> = Propósitos + <b style="color: #0AB5A0">¿Para quienes trabajamos?</b> = Clientes + <b style="color: #0AB5A0">¿Por qué lo hacemos?</b> = Productos, Servicios, Valores, Principios, Motivaciones</p>
 					</div>
 					<a onclick="paso3()" style="color:white;" class="next siguiente btn btn-planeem waves-effect waves-light">Siguiente</a>
 					<a onclick="paso1()" style="color:white;"  class="previous anterior btn btn-planeem waves-effect waves-light">Anterior</a>
@@ -62,9 +62,9 @@
 							<p class="trabajamos"><b style="color: #0AB5A0">¿Para quienes trabajamos? = Clientes</b><br>
 								Se refiere a quiénes son nuestros clientes<br>
 								<b style="color: #0AB5A0">Ejemplo: “somos una empresa colombiana dedicada a realizar pruebas de software para organizaciones comerciales”</b><br>
-								<b style="color: #0AB5A0">Ejemplo: “somos una organización joven que brinda asesoría comercial a personas que van iniciar un negocio”</b></p>
+								<b style="color: #0AB5A0">Ejemplo: “somos una organización joven que brinda asesoría comercial a personas que van a iniciar un negocio”</b></p>
 							</div>
-							<p class="formula2">Fórmula:<b style="color: #0AB5A0"> ¿Quiénes somos?</b> = identidad, legitimidad + <b style="color: #0AB5A0">¿Qué buscamos?</b> = Propósitos + <b style="color: #0AB5A0">¿Para quienes trabajamos?</b> = Clientes + <b style="color: #0AB5A0">¿Por qué lo hacemos?</b> = Productos, Servicios, Valores, Principios, Motivaciones</p>
+							<p class="formula2">Fórmula para la Misión:<b style="color: #0AB5A0"><br> ¿Quiénes somos?</b> = identidad, legitimidad + <b style="color: #0AB5A0">¿Qué buscamos?</b> = Propósitos + <b style="color: #0AB5A0">¿Para quienes trabajamos?</b> = Clientes + <b style="color: #0AB5A0">¿Por qué lo hacemos?</b> = Productos, Servicios, Valores, Principios, Motivaciones</p>
 						</div>
 						<a onclick="paso4()" style="color:white;" class="next siguiente btn btn-planeem waves-effect waves-light">Siguiente</a>
 						<a onclick="paso2()" style="color:white;" class="previous anterior btn btn-planeem waves-effect waves-light">Anterior</a>

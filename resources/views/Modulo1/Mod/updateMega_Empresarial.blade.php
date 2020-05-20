@@ -50,11 +50,11 @@
 						<div>
 							<p class="desafiante"><b style="color: #0AB5A0">Definición de nicho</b><br>
 
-								Se refiere a una porción de un segmento de mercado en la que los individuos poseen características y necesidades<br>
-
-								homogéneas, y estas últimas no están del todo cubiertas por la oferta general del mercado y requiere ser
+								Se refiere a una porción de un segmento de mercado en la que los individuos poseen características y necesidades
+	
+								homogéneas y estas últimas no están del todo cubiertas por la oferta general del mercado y requiere ser
 								satisfecha<br>
-								<b style="color: #0AB5A0">Ejemplo: “Tener un millón de clientes on-line”</b><br></p>
+								<b style="color: #0AB5A0">Ejemplo: “Tener un millón de clientes on-line”</b></p>
 
 							</div>
 							<p class="formulaDesafiante"> Fórmula(A):<b style="color: #0AB5A0"> Objetivo desafiante</b> + <b style="color: #0AB5A0">Definición de nicho</b> + <b style="color: #0AB5A0">Horizonte de tiempo</b>
@@ -67,13 +67,11 @@
 						<div>
 
 							<div>
-								<p class="desafiante"><b style="color: #0AB5A0">Definición de nicho</b><br>
+								<p class="desafiante"><b style="color: #0AB5A0">Horizonte de tiempo</b><br>
 
-									Se refiere a una porción de un segmento de mercado en la que los individuos poseen características y necesidades<br>
-
-									homogéneas, y estas últimas no están del todo cubiertas por la oferta general del mercado y requiere ser
-									satisfecha<br>
-									<b style="color: #0AB5A0">Ejemplo: “Tener un millón de clientes on-line”</b><br></p>
+									Lapso de tiempo en el cual se espera llegar a cumplir con el objetivo desafiante, para el caso de la Mega,
+									se estipula que debe oscilar entre 7 y 10 años<br>
+									<b style="color: #0AB5A0">Ejemplo: El SENA, se proyecta para el 2027</b><br></p>
 
 								</div>
 								<p class="formulaDesafiante"> Fórmula(A):<b style="color: #0AB5A0"> Objetivo desafiante</b> + <b style="color: #0AB5A0">Definición de nicho</b> + <b style="color: #0AB5A0">Horizonte de tiempo</b>
@@ -94,10 +92,15 @@
 
 								</div>
 								<div class="modal-body">
-									<p>Una de las mejores maneras de comenzar a redactar la visión es usar frases concisas y en infinitivo que vayan
-										de lo particular a lo global y de lo concreto a lo emotivo.<br>
-										La imagen debe reflejar una aceptación de las características de la empresa, los socios y el equipo. Además.
-										depende completamente de los objetivos estratégicos.
+									<p class="Nota" style="margin-left: 0.5px; font-weight: bold; font-size: 15px";>Desarrollo de la Mega Empresarial:</p>
+									<p>Para desarrollar la Mega Empresarial debe responder las siguientes preguntas en los recuadros habilitados:<br>
+                                    ¿Cuál es su objetivo desafiante?<br>
+                                    ¿Cuál es la definición de su nicho de mercado?<br>
+                                    ¿Cuál es el horizonte del tiempo de su empresa?<br><br>
+                                    Recuerda:  la Mega Empresarial Se trata de la meta ganadora y audaz, que se fundamenta
+                                    en una ventaja competitiva única y centrada en la innovación, que cuenta con una estrategia
+									clara y permite a las empresas un crecimiento rentable y sostenido en el tiempo.
+									{UpdateMega_Empresarial}
 									</p>
 								</div>
 							</div>

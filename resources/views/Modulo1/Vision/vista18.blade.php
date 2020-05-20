@@ -15,7 +15,7 @@
  </form>
 </div>
 <div class="contenedor5">
-  <h2 class="edita">VISIÓN ORGANIZACIONAL</h2>
+  <h2 class="edita">Visión Organizacional</h2>
   <br><br>
   <p id="Vision3" ></p>
 </div>
@@ -30,18 +30,25 @@
         <h5 class="modal-title" id="exampleModalCenterTitle" style="margin-left: 252px; font-weight: bold;"></h5>
         <span class="icon-cancel-circle" style="color:#FC7323; font-size: 32px; cursor: pointer; margin-top: 4px;
         margin-left: 10%;" data-dismiss="modal" aria-label="Close"></span>
-        
+
       </div>
       <div class="modal-body">
-        <p>Una de las mejores maneras de comenzar a redactar la visión es usar frases concisas y en infinitivo que vayan
-          de lo particular a lo global y de lo concreto a lo emotivo.<br>
-          La imagen debe reflejar una aceptación de las características de la empresa, los socios y el equipo. Además.
-          depende completamente de los objetivos estratégicos.
-        </p>
+    
+
+     
+            <p class="Nota" style="margin-left: 0.5px; font-weight: bold; font-size: 15px";>Fin de Desarrollo de la Visión:</p>
+                <p>
+                Para desarrollar la Visión Organizacional debe responder las siguientes preguntas en los recuadros habilitados:
+                ¿Qué hará mi empresa en cinco años? 
+                ¿Qué hará mi empresa por el entorno en cinco años? 
+                ¿Qué hará mi empresa por la sociedad en cinco años?
+                <br>{vista18}  </p>
+              
+              
+              </div>
+            </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
 <!-- Modal de seguir adelante -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -52,7 +59,7 @@
         margin-left: 10%;" data-dismiss="modal" aria-label="Close"></span>
       </div>
       <div class="modal-body" style="text-align: center;">
-        <h1>A continuación Mega empresarial</h1>
+        <h1>A continuación Mega Empresarial</h1>
       </div>
       <div class="modal-footer">
         <a class="buttonModal btn btn-planeem waves-effect waves-light" data-dismiss="modal">Cancelar</a>
@@ -68,7 +75,7 @@
     /*width: 126%;*/
     border: 2px solid #0AB5A0;
   }
-</style> 
+</style>
 @yield('script')
 
 <script>
@@ -77,7 +84,7 @@
       var hola = document.getElementById('Vision3').innerHTML =Vision;
     </script>
 
-    
+
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

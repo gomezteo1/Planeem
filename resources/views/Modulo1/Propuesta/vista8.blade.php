@@ -20,7 +20,7 @@
 
 
 <div class="contenedor5">
- <h2 class="edita">PROPUESTA DE VALOR</h2>
+ <h2 class="edita">Propuesta De Valor</h2>
  <p id="propuesad"></p>
 </div>
 <br>
@@ -31,18 +31,15 @@
   <div class="modal-dialog modal-dialog-scrollable" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle" style="margin-left: 252px; font-weight: bold;">PROPUESTA DE VALOR</h5>
+        <h5 class="modal-title" id="exampleModalCenterTitle" style="margin-left: 252px; font-weight: bold;">Propuesta De Valor</h5>
         <span class="icon-cancel-circle" style="color:#FC7323; font-size: 32px; cursor: pointer; margin-top: 4px;
         margin-left: 10%;" data-dismiss="modal" aria-label="Close"></span>
 
       </div>
       <div class="modal-body">
-        <p>Son las expectativas que de forma unilateral el consumidor se forma en su mente, es lo que el cliente
-          imagina que obtendrá a la hora de adquirir determinado bien o servicio, en esto podemos influir, pero en
-          mayor parte son las experiencias personales del consumidor y las condiciones generales del mercado lo
-          que determinan sus expectativas personales a la hora de comprar
-          a través de ella determinarás lo que diferencia tu producto o servicio de la competencia, además que te
-        ayudará a encontrar la forma en que atenderás a tus clientes o segmento de mercado. (Saavedra, 2017)</p>
+        <p><br><br>Una propuesta de valor es una frase clara y concisa que explica como su producto o
+            servicio resuelve los problemas del cliente, cubre una necesidad o mejora su situación
+            específica, indicando claramente un beneficio. ....vista8</p>
       </div>
     </div>
   </div>
@@ -58,7 +55,7 @@
         margin-left: 10%;" data-dismiss="modal" aria-label="Close"></span>
       </div>
       <div class="modal-body" style="text-align: center;">
-       <h1>A continuación Misión organizacional</h1>
+       <h1>A continuación Misión Organizacional</h1>
      </div>
      <div class="modal-footer">
       <a class="buttonModal btn btn-planeem waves-effect waves-light" data-dismiss="modal">Cancelar</a>
@@ -77,7 +74,7 @@
 @yield('script')
 
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script>
 
   $(document).ready(function () {

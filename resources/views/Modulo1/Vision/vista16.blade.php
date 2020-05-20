@@ -12,18 +12,15 @@
 </div>
 
 <div  class="container" id="alert">
-	
+
 </div>
 <div id="regiration_form">
 	<fieldset id="paso1">
 		<div>
 			<div>
 				<p class="enunciadoHara"><b style="color: #0AB5A0">¿Qué hará mi empresa en cinco años?</b><br>
-					¿Con qué lo vamos a hacer?<br>
-					¿Desde qué posición lo vamos a hacer?<br>
-					¿Seremos los líderes? <br>
-					¿Habremos ganado participación?<br>
-					<b style="color: #0AB5A0">Ejemplo: “Mejorar la salud y el bienestar a través de productos de salud y de higiene”</b></p>
+
+					<b style="color: #0AB5A0">Ejemplo: Mejorar la salud y el bienestar a través de productos de salud y de higiene</b></p>
 				</div>
 				<br>
 				<br>
@@ -53,8 +50,10 @@
 								<p class="hara2"><b style="color: #0AB5A0">¿Qué hará mi empresa por la sociedad en cinco años?</b><br>
 									¿Será más incluyente?<br>
 									¿Tendrá un gran ambiente de trabajo?<br>
-									¿Será un gran lugar para trabajar?<br>
-									<b style="color: #0AB5A0">Ejemplo:”Mejorando la vida de las personas ofreciendo trabajo digno”</b>
+
+									<b style="color: #0AB5A0">Ejemplo:Mejorando las condiciones laborales de mis colaboradores ofreciendo un trabajo digno,
+                                        con gran impacto en la salud y el bienestar,<br> a través de productos de salud
+                                        y de higiene reduciendo los impactos negativos para el medio ambiente.</b>
 								</p>
 							</div>
 							<p class="formula">Fórmula: <b style="color: #0AB5A0">¿Qué hará mi empresa en cinco años?</b> + <b style="color: #0AB5A0">¿Qué hará mi empresa por el entorno en cinco años?</b> + <b style="color: #0AB5A0">¿Qué hará mi empresa por la sociedad en cinco años?</b>
@@ -75,11 +74,13 @@
 
 							</div>
 							<div class="modal-body">
-								<p>Una de las mejores maneras de comenzar a redactar la visión es usar frases concisas y en infinitivo que vayan
-									de lo particular a lo global y de lo concreto a lo emotivo.<br>
-									La imagen debe reflejar una aceptación de las características de la empresa, los socios y el equipo. Además.
-									depende completamente de los objetivos estratégicos.
-								</p>
+								<p>Para desarrollar la Visión Organizacional debe responder las siguientes preguntas en los recuadros habilitados:<br>
+
+                                    ¿Qué hará mi empresa en cinco años?<br>
+                                    ¿Qué hará mi empresa por el entorno en cinco años?<br>
+                                    ¿Qué hará mi empresa por la sociedad en cinco años?
+
+                                </p>
 							</div>
 						</div>
 					</div>

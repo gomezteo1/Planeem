@@ -28,7 +28,7 @@
 					<b style="color: #0AB5A0">Ejemplo: “somos una empresa colombiana”</b><br>
 					<b style="color: #0AB5A0">Ejemplo: “somos una organización joven”</b></p>
 				</div>
-				<p class="formula2">Fórmula:<b style="color: #0AB5A0"> ¿Quiénes somos?</b> = identidad, legitimidad + <b style="color: #0AB5A0">¿Qué buscamos?</b> = Propósitos + <b style="color: #0AB5A0">¿Para quienes trabajamos?</b> = Clientes  + <b style="color: #0AB5A0">¿Por qué lo hacemos?</b> = Productos, Servicios, Valores, Principios, Motivaciones</p>
+				<p class="formula2">Fórmula para la Misión:<b style="color: #0AB5A0"><br> ¿Quiénes somos?</b> = identidad, legitimidad +<br> <b style="color: #0AB5A0">¿Qué buscamos?</b> = Propósitos +<br> <b style="color: #0AB5A0">¿Para quienes trabajamos?</b> = Clientes  + <br><b style="color: #0AB5A0">¿Por qué lo hacemos?</b> = Productos, Servicios, Valores, Principios, Motivaciones</p>
 			</div>
 			<button type="submit"   onclick="paso2()"   style="color:white;"   class="next siguiente btn btn-planeem waves-effect waves-light">Siguiente</button>
 		</fieldset>
@@ -41,7 +41,7 @@
 						<b style="color: #0AB5A0">Ejemplo: “somos una empresa colombiana dedicada a realizar pruebas de software”</b><br>
 						<b style="color: #0AB5A0">Ejemplo: “somos una organización joven que brinda asesoría comercial”</b></p>
 					</div>
-					<p class="formula2">Fórmula:<b style="color: #0AB5A0"> ¿Quiénes somos?</b> = identidad, legitimidad + <b style="color: #0AB5A0">¿Qué buscamos?</b> = Propósitos + <b style="color: #0AB5A0">¿Para quienes trabajamos?</b> = Clientes + <b style="color: #0AB5A0">¿Por qué lo hacemos?</b> = Productos, Servicios, Valores, Principios, Motivaciones</p>
+					<p class="formula2">Fórmula para la Misión:<b style="color: #0AB5A0"><br> ¿Quiénes somos?</b> = identidad, legitimidad + <b style="color: #0AB5A0">¿Qué buscamos?</b> = Propósitos + <b style="color: #0AB5A0">¿Para quienes trabajamos?</b> = Clientes + <b style="color: #0AB5A0">¿Por qué lo hacemos?</b> = Productos, Servicios, Valores, Principios, Motivaciones</p>
 				</div>
 				<button onclick="paso3()" style="color:white;" class="next siguiente btn btn-planeem waves-effect waves-light">Siguiente</button>
 				<button onclick="paso1()" style="color:white;"  class="previous anterior btn btn-planeem waves-effect waves-light">Anterior</button>
@@ -52,9 +52,9 @@
 						<p class="trabajamos"><b style="color: #0AB5A0">¿Para quienes trabajamos? = Clientes</b><br>
 							Se refiere a quiénes son nuestros clientes<br>
 							<b style="color: #0AB5A0">Ejemplo: “somos una empresa colombiana dedicada a realizar pruebas de software para organizaciones comerciales”</b><br>
-							<b style="color: #0AB5A0">Ejemplo: “somos una organización joven que brinda asesoría comercial a personas que van iniciar un negocio”</b></p>
+							<b style="color: #0AB5A0">Ejemplo: “somos una organización joven que brinda asesoría comercial a personas que van a iniciar un negocio”</b></p>
 						</div>
-						<p class="formula2">Fórmula:<b style="color: #0AB5A0"> ¿Quiénes somos?</b> = identidad, legitimidad + <b style="color: #0AB5A0">¿Qué buscamos?</b> = Propósitos + <b style="color: #0AB5A0">¿Para quienes trabajamos?</b> = Clientes + <b style="color: #0AB5A0">¿Por qué lo hacemos?</b> = Productos, Servicios, Valores, Principios, Motivaciones</p>
+						<p class="formula2">Fórmula para la Misión:<b style="color: #0AB5A0"><br> ¿Quiénes somos?</b> = identidad, legitimidad + <b style="color: #0AB5A0">¿Qué buscamos?</b> = Propósitos + <b style="color: #0AB5A0">¿Para quienes trabajamos?</b> = Clientes + <b style="color: #0AB5A0">¿Por qué lo hacemos?</b> = Productos, Servicios, Valores, Principios, Motivaciones</p>
 					</div>
 					<button onclick="paso4()" style="color:white;" class="next siguiente btn btn-planeem waves-effect waves-light">Siguiente</button>
 					<button onclick="paso2()" style="color:white;" class="previous anterior btn btn-planeem waves-effect waves-light">Anterior</button>
@@ -64,10 +64,10 @@
 						<div>
 							<p class="hacemos"><b style="color: #0AB5A0">¿Por qué lo hacemos? = Productos, Servicios, Valores, principios, motivaciones</b><br>
 								Se refiere a nuestros valores, principios y motivaciones.Por ejemplo: <br>
-								<b style="color: #0AB5A0">Ejemplo: “somos una empresa colombiana dedicada a realizar pruebas de software para organizaciones comerciales, buscamos la excelencia en nuestros productos”</b>
+								<b style="color: #0AB5A0">Ejemplo: “somos una empresa colombiana dedicada a realizar pruebas de software para organizaciones comerciales, buscamos la excelencia en nuestros productos”</b><br>
 								<b style="color: #0AB5A0">Ejemplo: “somos una organización joven que brinda asesoría comercial a personas que van iniciar un negocio, en el marco de la transparencia, la honestidad y la búsqueda del desarrollo”</b></p>
 							</div>
-							<p class="formula2">Fórmula:<b style="color: #0AB5A0"> ¿Quiénes somos?</b> = identidad, legitimidad + <b style="color: #0AB5A0">¿Qué buscamos?</b> = Propósitos + <b style="color: #0AB5A0">¿Para quienes trabajamos?</b> = Clientes + <b style="color: #0AB5A0">¿Por qué lo hacemos?</b> = Productos, Servicios, Valores, Principios, Motivaciones</p>
+							<p class="formula2">Fórmula para la Misión:<b style="color: #0AB5A0"><br> ¿Quiénes somos?</b> = identidad, legitimidad + <b style="color: #0AB5A0">¿Qué buscamos?</b> = Propósitos + <b style="color: #0AB5A0">¿Para quienes trabajamos?</b> = Clientes + <b style="color: #0AB5A0">¿Por qué lo hacemos?</b> = Productos, Servicios, Valores, Principios, Motivaciones</p>
 						</div>
 						<a href="{{ route('Mision/list') }}" onclick="guardar()"  style="color:white;" class="next siguiente btn btn-planeem waves-effect waves-light">Siguiente</a>
 						<button onclick="paso3()" style="color:white;" class="previous anterior btn btn-planeem waves-effect waves-light">Anterior</button>
@@ -78,18 +78,16 @@
 					<div class="modal-dialog modal-dialog-scrollable" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
-								<h5 class="modal-title" id="exampleModalCenterTitle" style="margin-left: 252px; font-weight: bold;">PROPUESTA DE VALOR</h5>
+								<h5 class="modal-title" id="exampleModalCenterTitle" style="margin-left: 170px; font-weight: bold;">Desarrollo De La Misión Organizacional</h5>
 								<span class="icon-cancel-circle" style="color:#FC7323; font-size: 32px; cursor: pointer; margin-top: 4px;
 								margin-left: 10%;" data-dismiss="modal" aria-label="Close"></span>
 
 							</div>
 							<div class="modal-body">
-								<p>Son las expectativas que de forma unilateral el consumidor se forma en su mente, es lo que el cliente
-									imagina que obtendrá a la hora de adquirir determinado bien o servicio, en esto podemos influir, pero en
-									mayor parte son las experiencias personales del consumidor y las condiciones generales del mercado lo
-									que determinan sus expectativas personales a la hora de comprar
-									a través de ella determinarás lo que diferencia tu producto o servicio de la competencia, además que te
-								ayudará a encontrar la forma en que atenderás a tus clientes o segmento de mercado. (Saavedra, 2017)</p>
+							
+								<p><br><br>Este ítem se desarrollará a través de responder las diferentes
+                                    preguntas en los recuadros habilitados: ¿Quiénes Somos? ¿Que Buscamos?
+                                    ¿Para Quienes Trabajamos? ¿Porque lo Hacemos?{vista10.blade}</p>
 							</div>
 						</div>
 					</div>

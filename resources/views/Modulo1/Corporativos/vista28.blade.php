@@ -1,7 +1,7 @@
 @extends('layouts.nav')
 
 @section('content')
-<header>
+<header>s
 	@yield('js')
 	@section('f')
 	<a href="{{ route('home') }}" class="clos" aria-label="Close"><span class="icon-undo2"></span></a>
@@ -11,7 +11,7 @@
 <div class="contenedor9">
 
 	<div   class="editavalor">
-<h3 style="color: black; text-align: center;">VALORES CORPORATIVOS</h3>
+<h3 style="color: black; text-align: center;">Valores Corporativos</h3>
 
 
 
