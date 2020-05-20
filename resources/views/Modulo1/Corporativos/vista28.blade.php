@@ -1,7 +1,7 @@
 @extends('layouts.nav')
 
 @section('content')
-<header>s
+<header>
 	@yield('js')
 	@section('f')
 	<a href="{{ route('home') }}" class="clos" aria-label="Close"><span class="icon-undo2"></span></a>
@@ -86,10 +86,8 @@
 
 			</div>
 			<div class="modal-body">
-				<p>Una de las mejores maneras de comenzar a redactar la visión es usar frases concisas y en infinitivo que vayan
-					de lo particular a lo global y de lo concreto a lo emotivo.<br>
-					La imagen debe reflejar una aceptación de las características de la empresa, los socios y el equipo. Además.
-					depende completamente de los objetivos estratégicos.
+				<p> 
+					{Vista Corporativos->28->90}
 				</p>
 			</div>
 		</div>

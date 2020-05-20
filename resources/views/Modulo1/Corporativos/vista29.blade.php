@@ -48,10 +48,7 @@
 
 			</div>
 			<div class="modal-body">
-				<p>Una de las mejores maneras de comenzar a redactar la visión es usar frases concisas y en infinitivo que vayan
-					de lo particular a lo global y de lo concreto a lo emotivo.<br>
-					La imagen debe reflejar una aceptación de las características de la empresa, los socios y el equipo. Además.
-					depende completamente de los objetivos estratégicos.
+				<p>Vista{vista29}
 				</p>
 			</div>
 		</div>

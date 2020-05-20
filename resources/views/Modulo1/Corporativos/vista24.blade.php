@@ -71,13 +71,9 @@
 
 					<option   id="option3_2"    class="valores" mensaje="Buscamos aumentar la confianza entre quienes tienen relación con la empresa, ya sean los colaboradores, los clientes, los accionistas o los proveedores; a través de la transparencia la empresa hace saber a la sociedad cómo actúa, abriendo paso a posibles críticas o juicios de valor. " onclick="optiona3_2()">Transparencia</option>
 
-
-
-
-
-
-                    <a id="boton" class="button" value="AÑADIR" id="boton1" data-toggle="modal" data-target="#exampleModal0" >AÑADIR VALOR<span class="icon-eye-plus"></span></a>
-                </div>
+				<a  id="boton" class="button bbs" value="AÑADIR" id="boton1" data-toggle="modal" data-target="#exampleModal0"style="border: #0AB5A0 2px solid;border-radius: 26px;padding: 0px 80px 18px 104px;color: grey;left: 6%;width: 69%;bottom: -21%;position: relative;font-weight: 500;font-size: 14px;text-align: center;"     
+				>AÑADIR VALOR<span class="icon-eye-plus"></span></a>
+				</div>
 			     <div class="hover"><h2>Hover</h2> </div>
 	        </div>
     </div>
