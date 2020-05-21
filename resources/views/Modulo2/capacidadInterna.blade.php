@@ -9,16 +9,15 @@
 </header>
 <div class="contenedorpe">
 	<h2 style="text-align: center;font-weight: bold;">   Perfil de Capacidad Interna –PCI</h2>
-	<p style="line-height: 23px;margin-left: 80px;font-size: 18px;text-align: justify;">
-		<br>
-		El diagnostico estratégico permite llevar a su empresa al logro de procesos, etapas y fases teniendo en cuenta diferentes elementos del diagnóstico basados en el aspecto externo e interno de la empresa, dentro de la cual se busca satisfacer las necesidades de todos  los   involucrados: accionistas,trabajadores, clientes para ello se requiere la recopilación  adecuada de información, y así considerar la causa y consecuencia de cada escenario.
-		
-		<br>
-		<b style="font-weight: bold;">Fortaleza:</b><br>
-		Son todas las capacidades, atributos y recursos de una organización que están bajo su   control e influencia, aluno de ellos son los conocimientos, activos, tecnología, capital financiero y humano, procesos, experiencia, sensibilidades y actitudes que contribuyen y apoyan el logro de los objetivos planificados con el fin de obtener ventajas competitivas.
-		<br>
-		<b style="font-weight: bold;">Debilidades:</b><br>
-		Son los factores negativos de la empresa que en algún momento la pueden llevar a una crisis o la debilitan ante sus competidores; su solución está en manos de la propia organización. Son deficiencias inherentes a la empresa que pueden existir desde la creación misma del modelo de negocio o creadas en las diferentes etapas del desarrollo empresarial. Las debilidades surgen desde el interior de la organización y afectan su posición competitiva (Prieto 2008) actividades  y  atributos internos de una organización que inhiben o dificultan el éxito de una empresa.
+	<p style="line-height: 23px;margin-left: 80px;font-size: 18px;text-align: justify;"><br><br>
+		Es un método que permite evaluar las fortalezas y debilidades de la compañía en relación con las oportunidades y amenazas, a manera de diagnóstico estratégico involucrando los factores que afectan la operación corporativa. <br>Para su desarrollo se examinarán 5 categorías:
+		<br>1. La capacidad directiva. 
+		<br>2. La capacidad competitiva (de mercadeo).
+		<br>3. La capacidad financiera. 
+		<br>4. La capacidad tecnológica (productiva). 
+		<br>5. La capacidad de talento humano.
+
+
 	</p>
 </div>
 <form  method="post"  role="from" action="{{route('capacidadInte')}}" >
@@ -39,16 +38,15 @@
 			</div>
 			<div class="modal-body">
 				<p>
-					Como realizar la calificación de la Matriz PCI (Perfil de Capacidad interna)
-
-					Para realizar la calificación de la matriz se debe seleccionar la capacidad, identificar si
-					es una fortaleza o debilidad para la empresa, luego si:
-					<br><br>
-					1. Es una fortaleza se debe calificar D si es débil (débil), M si es (media) y A si es (alta)
-					<br>
-					2. Es debilidad debo calificar si es D si es débil (débil), M si es (media) y A si es (alta)
-					Luego, se califica que impacto tiene esa debilidad o fortaleza para la empresa: D(débil),
-					M (media), A(alta)
+					Para realizar la Matriz de Capacidad Interna es fundamental realizar los siguientes pasos:
+					<br>1) se identifica si los factores mencionados representan para su empresa una debilidad o fortaleza.
+					<br>2) Después se debe asignar una calificación a cada factor considerando su importancia de la siguiente manera:
+					<br>A (si es alto).
+					<br>M (si es medio).
+					<br>B (si es bajo).
+					<br>En caso de no aplicar se puede marcar la opción N/A.
+					<br><br>¡Empecemos!
+					{vista capacidadInterna}
 				</p>
 			</div>
 		</div>

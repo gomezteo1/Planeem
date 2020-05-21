@@ -72,7 +72,10 @@ aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
         </div>
 
         <div class="col-7" style="margin: 0 auto;">
-          <h4>¿Desea continuar con el Módulo 2?</h4>
+          <h4>¡Ha finalizado el módulo I de Pensamiento y Direccionamiento estratégico!</h4> 
+			<p>Lo invitamos a continuar con el desarrollo del módulo II de Diagnóstico Estratégico,<br> donde podrá realizar el análisis interno y externo de su Empresa, con el uso de herramientas y matrices que le permiten tener una visión mucho más amplia de su entorno empresarial.  
+			</p>
+			  
           <br>
 		  <a href="{{ route('diagnosticoEstra') }}"  class="buttonModal btn btn-planeem waves-effect waves-light">Si</a>
 		  <a id="no" class="buttonModal btn btn-planeem waves-effect waves-light">No</a>

@@ -14,7 +14,7 @@ class capacidadTableSeeder extends Seeder
     {
         //directiva
         capacidad::create([
-            'nombre'=>'La imagen corporativa de su empresa.',
+            'nombre'=>'La identidad corporativa de su empresa.',
             'idTipo'=> 1
 
         ]);
@@ -30,17 +30,17 @@ class capacidadTableSeeder extends Seeder
 
         ]);
         capacidad::create([
-            'nombre'=>'La evaluación y pronostico del medio.',
+            'nombre'=>'El sistema de gestión, bioseguridad y control de procesos.',
             'idTipo'=> 1
 
         ]);
         capacidad::create([
-            'nombre'=>'Relaciona los componentes de la empresa.',
+            'nombre'=>'La capacidad del servicio y respuesta al cliente.',
             'idTipo'=> 1
             
         ]);
         capacidad::create([
-            'nombre'=>'La conceptualización de los emprendimientos de la empresa como una oportunidad.',
+            'nombre'=>'La coordinación en los niveles organizacionales, estratégico táctico y operativo.',
             'idTipo'=> 1
             
         ]);
@@ -52,52 +52,13 @@ class capacidadTableSeeder extends Seeder
         ]);
 
         capacidad::create([
-            'nombre'=>'La flexibilidad de la estructura organizacional.',
+            'nombre'=>'La capacidad de negociación.',
             'idTipo'=> 1
 
         ]);
 
         capacidad::create([
-            'nombre'=>'La limitada capacidad productiva.',
-            'idTipo'=> 1
-
-        ]);
-
-        capacidad::create([
-            'nombre'=>'La capacidad del servicio y lealtad al cliente.',
-            'idTipo'=> 1
-
-        ]);
-
-        capacidad::create([
-            'nombre'=>'La orientación empresarial.',
-            'idTipo'=> 1
-
-        ]);
-
-        capacidad::create([
-            'nombre'=>'La habilidad para manejar la inflación.',
-            'idTipo'=> 1
-
-        ]);
-        capacidad::create([
-            'nombre'=>'La disponibilidad de líneas de crédito.',
-            'idTipo'=> 1
-
-        ]);
-        capacidad::create([
-            'nombre'=>'La capacidad de endeudamiento.',
-            'idTipo'=> 1
-
-        ]);
-        capacidad::create([
-            'nombre'=>'La exclusividad.',
-            'idTipo'=> 1
-
-        ]);
-
-        capacidad::create([
-            'nombre'=>'La rotación de inventarios.',
+            'nombre'=>'La toma de decisiones en cada área administrativa.',
             'idTipo'=> 1
 
         ]);
@@ -107,99 +68,101 @@ class capacidadTableSeeder extends Seeder
             'idTipo'=> 1
 
         ]);
+        //Estas capacidades se usaban en la version anterior :D 
 
-        capacidad::create([
-            'nombre'=>'La planificación operativa.',
-            'idTipo'=> 1
+        // capacidad::create([
+        //     'nombre'=>'La orientación empresarial.',
+        //     'idTipo'=> 1
 
-        ]);
+        // ]);
 
-        capacidad::create([
-            'nombre'=>'La capacidad de negociación.',
-            'idTipo'=> 1
+        // capacidad::create([
+        //     'nombre'=>'La habilidad para manejar la inflación.',
+        //     'idTipo'=> 1
 
-        ]);
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'La disponibilidad de líneas de crédito.',
+        //     'idTipo'=> 1
 
-        capacidad::create([
-            'nombre'=>'El sistema de coordinación.',
-            'idTipo'=> 1
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'La capacidad de endeudamiento.',
+        //     'idTipo'=> 1
 
-        ]);
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'La exclusividad.',
+        //     'idTipo'=> 1
 
-        capacidad::create([
-            'nombre'=>'El sistema de toma de decisiones.',
-            'idTipo'=> 1
+        // ]);
 
-        ]);
+        // capacidad::create([
+        //     'nombre'=>'La rotación de inventarios.',
+        //     'idTipo'=> 1
+
+        // ]);
+
+        // capacidad::create([
+        //     'nombre'=>'El cumplimento de metas.',
+        //     'idTipo'=> 1
+
+        // ]);
+
+        // capacidad::create([
+        //     'nombre'=>'La planificación operativa.',
+        //     'idTipo'=> 1
+
+        // ]);
+
+        // capacidad::create([
+        //     'nombre'=>'La capacidad de negociación.',
+        //     'idTipo'=> 1
+
+        // ]);
+
+        // capacidad::create([
+        //     'nombre'=>'El sistema de coordinación.',
+        //     'idTipo'=> 1
+
+        // ]);
+
+        // capacidad::create([
+        //     'nombre'=>'El sistema de toma de decisiones.',
+        //     'idTipo'=> 1
+
+        // ]);
+
+        
         //Competitiva
-        capacidad::create([
-            'nombre'=>'La relación de los componentes de la empresa.',
-            'idTipo'=> 2
 
-        ]);
-        capacidad::create([
-            'nombre'=>'El Programa de posventa de su empresa.',
-            'idTipo'=> 2
-
-        ]);
         capacidad::create([
             'nombre'=>'La calidad en el producto.',
             'idTipo'=> 2
 
         ]);
         capacidad::create([
-            'nombre'=>'La experiencia en el sector.',
+            'nombre'=>'La experiencia o antigüedad en el sector.',
             'idTipo'=> 2
 
         ]);
         capacidad::create([
-            'nombre'=>'El entorno laboral inestable.',
+            'nombre'=>'La experiencia y satisfacción del cliente.',
             'idTipo'=> 2
 
         ]);
         capacidad::create([
-            'nombre'=>'Lealtad y satisfacción del cliente.',
+            'nombre'=>'La participación de su empresa en los canales de marketing digital.',
             'idTipo'=> 2
 
         ]);
         capacidad::create([
-            'nombre'=>'La participación de su empresa en el mercado.',
+            'nombre'=>'La inversión en I+D+i para el desarrollo de nuevos productos.    ',
             'idTipo'=> 2
 
         ]);
         capacidad::create([
-            'nombre'=>'El bajo costo de distribución y ventas.',
-            'idTipo'=> 2
-
-        ]);
-        capacidad::create([
-            'nombre'=>'El portafolio de productos.',
-            'idTipo'=> 2
-
-        ]);
-        capacidad::create([
-            'nombre'=>'El uso del ciclo de vida del producto y reposición.',
-            'idTipo'=> 2
-
-        ]);
-
-        capacidad::create([
-            'nombre'=>'La Inversión en I+D+i para el desarrollo de nuevos productos.',
-            'idTipo'=> 2
-
-        ]);
-        capacidad::create([
-            'nombre'=>'La ventaja del potencial de crecimiento del mercado. ',
-            'idTipo'=> 2
-
-        ]);
-        capacidad::create([
-            'nombre'=>'La fortaleza de proveedores y disponibilidad de insumos.',
-            'idTipo'=> 2
-
-        ]);
-        capacidad::create([
-            'nombre'=>'La concentración de consumidores.',
+            'nombre'=>'La disponibilidad de proveedores y de insumos.',
             'idTipo'=> 2
 
         ]);
@@ -209,12 +172,7 @@ class capacidadTableSeeder extends Seeder
 
         ]);
         capacidad::create([
-            'nombre'=>'El servicio Postventa.',
-            'idTipo'=> 2
-
-        ]);
-        capacidad::create([
-            'nombre'=>'La competencia en el sector.',
+            'nombre'=>'El servicio en la atención oportuna al cliente.',
             'idTipo'=> 2
 
         ]);
@@ -228,87 +186,67 @@ class capacidadTableSeeder extends Seeder
             'idTipo'=> 2
 
         ]);
+        //Estas capacidades competitivas son de la version anterior    
+        
+        // capacidad::create([
+        //     'nombre'=>'La Inversión en I+D+i para el desarrollo de nuevos productos.',
+        //     'idTipo'=> 2
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'La ventaja del potencial de crecimiento del mercado. ',
+        //     'idTipo'=> 2
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'La fortaleza de proveedores y disponibilidad de insumos.',
+        //     'idTipo'=> 2
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'La concentración de consumidores.',
+        //     'idTipo'=> 2
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'La administración de sus clientes.',
+        //     'idTipo'=> 2
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'El servicio Postventa.',
+        //     'idTipo'=> 2
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'La competencia en el sector.',
+        //     'idTipo'=> 2
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'El acceso a organismos privados y públicos.',
+        //     'idTipo'=> 2
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'La imagen de la compañía en el mercado.',
+        //     'idTipo'=> 2
+
+        // ]);
 
         //Financiera
         capacidad::create([
-            'nombre'=>'La comunicación y el control gerencial.',
+            'nombre'=>'La relación con el banco y la accesibilidad a créditos.',
             'idTipo'=> 3
 
         ]);
         capacidad::create([
-            'nombre'=>'El acceso a capital cuando lo requiere.',
+            'nombre'=>'La rentabilidad, del retorno de la inversión (ROI).',
             'idTipo'=> 3
 
         ]);
         capacidad::create([
-            'nombre'=>'La rentabilidad, del retorno de la inversión.',
-            'idTipo'=> 3
-
-        ]);
-        capacidad::create([
-            'nombre'=>'El grado de utilización de capacidad de endeudamiento.',
-            'idTipo'=> 3
-
-        ]);
-        capacidad::create([
-            'nombre'=>'La liquidez, disponibilidad de fondos internos.',
-            'idTipo'=> 3
-
-        ]);
-        capacidad::create([
-            'nombre'=>'Habilidad para competir con precios.',
-            'idTipo'=> 3
-
-        ]);
-        capacidad::create([
-            'nombre'=>'La comunicación y el control gerencial.',
-            'idTipo'=> 3
-
-        ]);
-        capacidad::create([
-            'nombre'=>'La estabilidad de costos.',
-            'idTipo'=> 3
-
-        ]);
-        capacidad::create([
-            'nombre'=>'La Inversión de capital.',
-            'idTipo'=> 3
-
-        ]);
-        capacidad::create([
-            'nombre'=>'La capacidad para satisfacer la demanda.',
-            'idTipo'=> 3
-
-        ]);
-
-        capacidad::create([
-            'nombre'=>'La habilidad para mantener el esfuerzo ante la demanda cíclica.',
-            'idTipo'=> 3
-
-        ]);
-
-        capacidad::create([
-            'nombre'=>'La elasticidad de la demanda con respecto a los precios.',
-            'idTipo'=> 3
-
-        ]);
-        capacidad::create([
-            'nombre'=>'La fuente de financiamiento interno y externo.',
-            'idTipo'=> 3
-
-        ]);
-        capacidad::create([
-            'nombre'=>'La disponibilidad de líneas de crédito.',
-            'idTipo'=> 3
-
-        ]);
-        capacidad::create([
-            'nombre'=>'La estabilidad de costos.',
-            'idTipo'=> 3
-
-        ]);
-        capacidad::create([
-            'nombre'=>'El tiempo que su negocio toma en cobrar la cartera.',
+            'nombre'=>'La capacidad de endeudamiento.',
             'idTipo'=> 3
 
         ]);
@@ -318,92 +256,94 @@ class capacidadTableSeeder extends Seeder
 
         ]);
         capacidad::create([
-            'nombre'=>'La poca demanda de su producto o servicio.',
+            'nombre'=>'Días de rotación de cartera.',
             'idTipo'=> 3
 
         ]);
         capacidad::create([
-            'nombre'=>'La oferta en su producto o servicio.',
+            'nombre'=>'La evaluación de liquidez.',
             'idTipo'=> 3
 
         ]);
+        capacidad::create([
+            'nombre'=>'La fuente de financiamiento con (accionistas, acreedores, inversionistas y gobierno).',
+            'idTipo'=> 3
+
+        ]);
+        capacidad::create([
+            'nombre'=>'La estabilidad en costes de producción, distribución y ventas.',
+            'idTipo'=> 3
+
+        ]);
+        capacidad::create([
+            'nombre'=>'El margen financiero bruto de un bien o servicio. (Beneficio o ganancia).',
+            'idTipo'=> 3
+
+        ]);
+        capacidad::create([
+            'nombre'=>'La declaración de impuestos de industria y comercio.',
+            'idTipo'=> 3
+
+        ]);
+        
+        //Estas son las capacidades financieras de la anterior versión
+        // capacidad::create([
+        //     'nombre'=>'La habilidad para mantener el esfuerzo ante la demanda cíclica.',
+        //     'idTipo'=> 3
+
+        // ]);
+
+        // capacidad::create([
+        //     'nombre'=>'La elasticidad de la demanda con respecto a los precios.',
+        //     'idTipo'=> 3
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'La fuente de financiamiento interno y externo.',
+        //     'idTipo'=> 3
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'La disponibilidad de líneas de crédito.',
+        //     'idTipo'=> 3
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'La estabilidad de costos.',
+        //     'idTipo'=> 3
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'El tiempo que su negocio toma en cobrar la cartera.',
+        //     'idTipo'=> 3
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'La rotación de Inventario.',
+        //     'idTipo'=> 3
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'La poca demanda de su producto o servicio.',
+        //     'idTipo'=> 3
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'La oferta en su producto o servicio.',
+        //     'idTipo'=> 3
+
+        // ]);
+
+
         //Tecnologica
 
         capacidad::create([
-            'nombre'=>'La habilidad técnica y de manufactura.',
-            'idTipo'=> 4
-
-        ]);
-        capacidad::create([
-            'nombre'=>'La capacidad de innovación.',
-            'idTipo'=> 4
-
-        ]);
-        capacidad::create([
-            'nombre'=>'La rentabilidad.',
-            'idTipo'=> 4
-
-        ]);
-
-        capacidad::create([
-            'nombre'=>'El retorno de la inversión.',
-            'idTipo'=> 4
-
-        ]);
-        capacidad::create([
-            'nombre'=>'El nivel de tecnología utilizada en productos.',
-            'idTipo'=> 4
-
-        ]);
-        capacidad::create([
-            'nombre'=>'La fuerza de Patentes y procesos.',
-            'idTipo'=> 4
-
-        ]);
-        capacidad::create([
-            'nombre'=>'La efectividad de la producción y programas de entrega.',
-            'idTipo'=> 4
-
-        ]);
-
-        capacidad::create([
-            'nombre'=>'El valor agregado al producto.',
-            'idTipo'=> 4
-
-        ]);
-        capacidad::create([
-            'nombre'=>'La intensidad de mano de obra en el producto.',
+            'nombre'=>'La intensidad en el uso de mano de obra.',
             'idTipo'=> 4
 
         ]);
         capacidad::create([
             'nombre'=>'La aplicación de tecnologías informáticas.',
-            'idTipo'=> 4
-
-        ]);
-        capacidad::create([
-            'nombre'=>'La fuerza de producto.',
-            'idTipo'=> 4
-
-        ]);
-
-        capacidad::create([
-            'nombre'=>'La calidad y exclusividad de su producto o servicio.',
-            'idTipo'=> 4
-
-        ]);
-        capacidad::create([
-            'nombre'=>'La participación del mercado.',
-            'idTipo'=> 4
-
-        ]);
-        capacidad::create([
-            'nombre'=>'El bajo costo de distribución y ventas.',
-            'idTipo'=> 4
-
-        ]);
-        capacidad::create([
-            'nombre'=>'El portafolio de productos.',
             'idTipo'=> 4
 
         ]);
@@ -412,142 +352,221 @@ class capacidadTableSeeder extends Seeder
             'idTipo'=> 4
 
         ]);
+
         capacidad::create([
             'nombre'=>'El grado de implantación de tecnologías de la información.',
             'idTipo'=> 4
 
         ]);
         capacidad::create([
-            'nombre'=>'El poder de negociación con los clientes.',
+            'nombre'=>'El nivel de tecnología aplicado en los procesos.',
             'idTipo'=> 4
 
         ]);
         capacidad::create([
-            'nombre'=>'La rivalidad entre competidores.',
+            'nombre'=>'La efectividad de la producción con procesos automatizados.',
             'idTipo'=> 4
 
         ]);
         capacidad::create([
-            'nombre'=>'La ubicación geográfica.',
+            'nombre'=>'La innovación, desarrollo e investigación en patentes y procesos.',
             'idTipo'=> 4
 
         ]);
+        capacidad::create([
+            'nombre'=>'La capacidad de gestión de métodos de producción computarizada.',
+            'idTipo'=> 4
+
+        ]);
+
+        capacidad::create([
+            'nombre'=>'La adquisición de software',
+            'idTipo'=> 4
+
+        ]);
+        capacidad::create([
+            'nombre'=>'El acceso a servicios públicos e internet.',
+            'idTipo'=> 4
+
+        ]);
+        //Estas son las capacidades tecnologicas de la anterior versión
+
+        // capacidad::create([
+        //     'nombre'=>'La aplicación de tecnologías informáticas.',
+        //     'idTipo'=> 4
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'La fuerza de producto.',
+        //     'idTipo'=> 4
+
+        // ]);
+
+        // capacidad::create([
+        //     'nombre'=>'La calidad y exclusividad de su producto o servicio.',
+        //     'idTipo'=> 4
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'La participación del mercado.',
+        //     'idTipo'=> 4
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'El bajo costo de distribución y ventas.',
+        //     'idTipo'=> 4
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'El portafolio de productos.',
+        //     'idTipo'=> 4
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'El nivel de desarrollo tecnológico.',
+        //     'idTipo'=> 4
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'El grado de implantación de tecnologías de la información.',
+        //     'idTipo'=> 4
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'El poder de negociación con los clientes.',
+        //     'idTipo'=> 4
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'La rivalidad entre competidores.',
+        //     'idTipo'=> 4
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'La ubicación geográfica.',
+        //     'idTipo'=> 4
+
+        // ]);
+
+
         //factor humano
 
         capacidad::create([
-            'nombre'=>'La aplicación de tecnologías informáticas.',
+            'nombre'=>'La experiencia técnica del personal.',
             'idTipo'=> 5
 
         ]);
 
-        capacidad::create([
-            'nombre'=>'La habilidad técnica y de manufactura.',
-            'idTipo'=> 5
-
-        ]);
-
-        capacidad::create([
-            'nombre'=>'La capacidad de innovación.',
-            'idTipo'=> 5
-
-        ]);
-
-        capacidad::create([
-            'nombre'=>'El nivel de tecnología utilizada en productos.',
-            'idTipo'=> 5
-
-        ]);
-
-        capacidad::create([
-            'nombre'=>'La fuerza de patentes y procesos.',
-            'idTipo'=> 5
-
-        ]);
-
-        capacidad::create([
-            'nombre'=>'La efectividad de la producción y programas de entrega.',
-            'idTipo'=> 5
-
-        ]);
-
-        capacidad::create([
-            'nombre'=>'El valor agregado al producto.',
-            'idTipo'=> 5
-
-        ]);
-
-        capacidad::create([
-            'nombre'=>'El nivel tecnológico.',
-            'idTipo'=> 5
-
-        ]);
-
-        capacidad::create([
-            'nombre'=>'La intensidad de mano de obra en el producto.',
-            'idTipo'=> 5
-
-        ]);
-        capacidad::create([
-            'nombre'=>'La aplicación de tecnologías informáticas.',
-            'idTipo'=> 5
-
-        ]);
-        capacidad::create([
-            'nombre'=>'La estabilidad.',
-            'idTipo'=> 5
-
-        ]);
-        capacidad::create([
-            'nombre'=>'La experiencia técnica.',
-            'idTipo'=> 5
-
-        ]);
         capacidad::create([
             'nombre'=>'El nivel académico del recurso humano.',
             'idTipo'=> 5
 
         ]);
+
         capacidad::create([
             'nombre'=>'La rotación interna.',
             'idTipo'=> 5
 
         ]);
-        
+
         capacidad::create([
             'nombre'=>'El ausentismo.',
             'idTipo'=> 5
 
         ]);
+
         capacidad::create([
-            'nombre'=>'La falta de capacitación.',
+            'nombre'=>'La inversión en capacitación.',
+            'idTipo'=> 5
+
+        ]);
+
+        capacidad::create([
+            'nombre'=>'El salario legal y justo.',
+            'idTipo'=> 5
+
+        ]);
+
+        capacidad::create([
+            'nombre'=>'El índice de desempeño.',
+            'idTipo'=> 5
+
+        ]);
+
+        capacidad::create([
+            'nombre'=>'El nivel de remuneración.',
+            'idTipo'=> 5
+
+        ]);
+
+        capacidad::create([
+            'nombre'=>'La identificación de habilidades blandas de las personas contratadas.',
             'idTipo'=> 5
 
         ]);
         capacidad::create([
-            'nombre'=>'El salario bajo.',
+            'nombre'=>'El reconocimiento al personal destacado en programas de desarrollo.',
             'idTipo'=> 5
-
         ]);
-        capacidad::create([
-            'nombre'=>'El capital de trabajo mal utilizado.',
-            'idTipo'=> 5
 
-        ]);
-        capacidad::create([
-            'nombre'=>'Los recursos financieros.',
-            'idTipo'=> 5
+        //Factor humano de la ultima versión
+        
+        // capacidad::create([
+        //     'nombre'=>'La estabilidad.',
+        //     'idTipo'=> 5
 
-        ]);
-        capacidad::create([
-            'nombre'=>'La calidad en el producto final.',
-            'idTipo'=> 5
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'La experiencia técnica.',
+        //     'idTipo'=> 5
 
-        ]);
-        capacidad::create([
-            'nombre'=>'La buena actitud del personal contratado.',
-            'idTipo'=> 5
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'El nivel académico del recurso humano.',
+        //     'idTipo'=> 5
 
-        ]);
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'La rotación interna.',
+        //     'idTipo'=> 5
+
+        // ]);
+        
+        // capacidad::create([
+        //     'nombre'=>'El ausentismo.',
+        //     'idTipo'=> 5
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'La falta de capacitación.',
+        //     'idTipo'=> 5
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'El salario bajo.',
+        //     'idTipo'=> 5
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'El capital de trabajo mal utilizado.',
+        //     'idTipo'=> 5
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'Los recursos financieros.',
+        //     'idTipo'=> 5
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'La calidad en el producto final.',
+        //     'idTipo'=> 5
+
+        // ]);
+        // capacidad::create([
+        //     'nombre'=>'La buena actitud del personal contratado.',
+        //     'idTipo'=> 5
+
+        // ]);
 
     }
 }
