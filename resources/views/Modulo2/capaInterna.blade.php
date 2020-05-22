@@ -307,13 +307,14 @@
 						<button type="button" class="Ahora2 previous btn btn-default">Anterior</button>
 						<button type="submit" id="submitButton" class="Ahora3 btn btn btn-planeem wafes-effect waves-light btn-lg pull right">Guardar</button>
 					</fieldset>
-				</div>
-				<div class="infon">
+				</div> 
+				<!-- Botonoes que no se van a utilizar jajajaja -->
+				{{-- <div class="infon">
 					<a  id="boton1" data-toggle="modal" data-target="#exampleModal21" class="button2_agregar1" ><span class="icon-folder-plus"><div id="hover_agregar1">
 						<h5>Agregar</h5></div></span></a>
 						<a  class="button2" data-toggle="modal" data-target="#exampleModal7" data-whatever="@mdo"><span class="icon-info "></span>
 						</a>
-					</div>
+					</div> --}}
 
 				</section>
 				<span class="icon-info" data-toggle="modal" data-target="#exampleModalScrollable" style="cursor:pointer;"></span>

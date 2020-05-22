@@ -51,7 +51,7 @@
 
 								<tr id = 'material{{$f->idCapacidad}}' class = 'tablaFortaleza material'>
 								<th data-column_name="idRespuestaCapacidad" data-id="{{$f->idCapacidad}}" data-name="$f->nombre">{{$f->nombre}}</th>
-											<input type="hidden" name="preguntas[]" value="{{$f->idCapacidad}}">    
+											<input type="hidden" name="preguntas[]" value="{{$f->idCapacidad}}">
 
 
                                                 <td><input type="text" id="ponde-{{$f->idCapacidad. "-" .$id}}"  name="ponderacion[]" onkeypress="return solonumeros(event)"  required class = ' pesoPonderado cantidad_req' onkeyup='obtTotalMat({{$f->idCapacidad}})' </td>
@@ -79,9 +79,11 @@
 			<div class="modal-dialog" role="document">
 				<div class="modal-content modal-modificado1">
 					<div class="modal-body">
-						<div id="cierra_caja11"><a data-dismiss="modal" aria-label="Close" style="background: white; outline: none !important; margin-left: 93%"><i class="icon-cancel-circle" style="color: #FC7323; font-size: 21px;margin-top: 2%; cursor: pointer;"></i></a> 
-							<p class="Nota">Nota: Son los factores internos que obstaculizan el logro de los objetivos planteados, incluyendo
-							actividades y atributos internos de una organización que inhiben o dificultan el éxito de una empresa. (Prieto 2008)</p>
+						<div id="cierra_caja11"><a data-dismiss="modal" aria-label="Close" style="background: white; outline: none !important; margin-left: 93%"><i class="icon-cancel-circle" style="color: #FC7323; font-size: 21px;margin-top: 0%; cursor: pointer;"></i></a>
+                            <p class="Nota" style="margin-left: 0.5px; font-weight: bold; font-size: 14px"; >Ponderación: </p>
+                            <p style="font-size: 12px; text-align: justify;">Asigne un peso entre 0.0 (no importante) hasta 1.0 (muy importante),
+                                el peso otorgado a cada factor expresa la importancia relativa del
+                                mismo, y el total de todos los pesos en su conjunto debe tener la suma de 1.0.</p>
 						</div>
 					</div>
 				</div>
@@ -142,7 +144,13 @@
 				<div class="modal-content modal-modificado1">
 					<div class="modal-body">
 						<div id="cierre_caja7"><a data-dismiss="modal" aria-label="Close" style="background: white; outline: none !important; margin-left: 93%"><i class="icon-cancel-circle" style="color: #FC7323; font-size: 21px;margin-top: 2%; cursor: pointer;"></i></a>
-							<p class="Nota">Nota: Son los factores internos que obstaculizan el logro de los objetivos planteados, incluyendo actividades y atributos internos de una organización que inhiben o dificultan el éxito de una empresa. (Prieto 2008)</p>
+                            <p class="Nota" style="margin-left: 0.5px; font-weight: bold; font-size: 14px"; >Calificación:  </p>
+                            <p style="font-size: 12px; text-align: justify;">Asignar una calificación a cada variable, esta calificación es de 1 a 4. Siendo:<br>
+                                1: Debilidad Mayor.<br>
+                                2: Debilidad Menor.<br>
+                                3: Fortaleza Menor.<br>
+                                4: Fortaleza Mayor.
+                            </p>
 						</div>
 					</div>
 				</div>
@@ -152,9 +160,9 @@
 			<div class="modal-dialog" role="document">
 				<div class="modal-content modal-modificado1">
 					<div class="modal-body">
-						<div id="cierre_caja6"><a data-dismiss="modal" aria-label="Close" style="background: white; outline: none !important; margin-left: 93%"><i class="icon-cancel-circle" style="color: #FC7323; font-size: 21px;margin-top: 2%; cursor: pointer;"></i></a>
-							<p class="Nota">Nota: Son todas las capacidades, atributos y recursos de una organización que contribuyen y apoyan el
-							logro de los objetivos planificados con el fin de obtener ventajas competitivas. (Serna, 2010)</p>
+						<div id="cierre_caja6"><a data-dismiss="modal" aria-label="Close" style="background: white; outline: none !important; margin-left: 99%"><i class="icon-cancel-circle" style="color: #FC7323; font-size: 15px;margin-top:0.5%; cursor: pointer;"></i></a>
+                            <p class="Nota" style="margin-left: 0.5px; font-weight: bold; font-size: 14px"; >Puntación Ponderada:  </p>
+                            <p style="font-size: 12px; text-align: justify;">Es la multiplicación de la ponderación por la calificación asignada (esta es automática)</p>
 						</div>
 					</div>
 				</div>
@@ -164,9 +172,12 @@
 			<div class="modal-dialog" role="document">
 				<div class="modal-content modal-modificado1">
 					<div class="modal-body">
-						<div id="cierra_caja5"><a data-dismiss="modal" aria-label="Close" style="background: white; outline: none !important; margin-left: 93%"><i class="icon-cancel-circle" style="color: #FC7323; font-size: 21px;margin-top: 2%; cursor: pointer;"></i></a> 
-							<p class="Nota">Nota: El perfil de fortalezas y debilidades, se representa gráficamente mediante la calificación de la fortaleza o debilidad con
-							relación a su grado en la escala de Alto (A), Medio (M), y Bajo (B).</p>
+						<div id="cierra_caja5"><a data-dismiss="modal" aria-label="Close" style="background: white; outline: none !important; margin-left: 93%"><i class="icon-cancel-circle" style="color: #FC7323; font-size: 21px;margin-top: 2%; cursor: pointer;"></i></a>
+                            <p class="Nota" style="margin-left: 0.5px; font-weight: bold; font-size: 14px"; >Fortalezas:</p>
+                            <p>Son las capacidades esenciales con las que cuenta la compañía,
+                                que le permiten obtener una posición privilegiada frente a la
+                                competencia, por ejemplo, recursos y habilidades que se poseen
+                                o actividades que se desarrollan de forma adecuada.</p>
 						</div>
 					</div>
 				</div>
@@ -186,28 +197,24 @@
 				<div class="modal-body">
 					<ol style="line-height: 17px; margin-top: -19px;">
 						<b style="color: black; font-weight: bold;">El procedimiento consiste en los siguientes pasos:</b>
-						<br>
-						<li>1. Se obtiene información de las empresas competidoras que serán incluidas en la MPC.</li><br>
-						<li>2. Se enlistan los aspectos o factores a considerar, que bien pueden ser elementos fuertes o débiles, según sea el caso,
-						de cada empresa u organización analizada</li>.<br>
-						<li>3. Se asigna un peso a cada uno de estos factores.</li><br>
-						<li>4. A cada una de las organizaciones enlistadas en la tabla se le asigna una calificación, siendo los valores de las<br>
-							calificaciones los siguientes:
-							<ol width="100%" style="text-align: center">
-								<li>1= Debilidad principal</li><br>
-								<li>2= Debilidad Menor</li><br>
-								<li>3= Fortaleza menor</li><br>
-								<li>4= Fortaleza mayor</li><br>
-							</ol>
-						</li><br>
-
-						<b>
-
-						</b>
-						<li>5. Se multiplica el peso de la segunda columna por cada una de las calificaciones de las organizaciones o empresas
-						competidoras, obteniéndose el peso ponderado correspondiente.</li><br>
-						<li>6. Se suman los totales de la columna del peso (debe ser de 1.00) y de las columnas de los pesos ponderados
-						(Ponce, 2007, pág. 120).</li>
+						<br><br>
+							<p>
+							A continuación, encontrará una lista de factores internos donde se muestran las fortalezas y debilidades de su empresa, estas son el resultado de la realización de la matriz de capacidad interna y matriz de perfil competitivo.
+							<br>Debe seguir los siguientes pasos:
+							<br>1. En la casilla peso ponderado: Asignar un peso entre 0.0 (no importante) hasta 1.0 (muy importante), el peso otorgado a cada factor expresa la importancia relativa del mismo, y el total de todos los pesos en su conjunto debe tener la suma de 1.0.
+							<br>2.En la casilla calificación: Asignar una calificación entre 1 y 4 a cada uno de los factores donde:
+							<li>
+								&nbsp;&nbsp;  1.= Mayor debilidad
+								<br>&nbsp;&nbsp;  2.= Menor debilidad
+								<br>&nbsp;&nbsp;  3.= Menor fuerza
+								<br>&nbsp;&nbsp;  4.= Mayor fuerza
+								
+								<br><br>La Sumatoria total de las calificaciones ponderadas de cada factor permiten determinar el total ponderado de la empresa en su conjunto, teniendo en cuenta las siguientes interpretaciones:
+								<br>Si la calificación total del peso ponderado es por debajo del 2.5 indica que la empresa es Internamente DEBIL, Si la calificación total del peso ponderado es por encima del 2.5 indica que la empresa es Internamente FUERTE
+								<br><br>¡Empecemos!
+							<li>
+							</p>
+					
 					</ol>
 				</div>
 			</div>
@@ -262,28 +269,28 @@
 
 
 
- 
- 
+
+
 <script>
-    
+
     function obtTotalMat(index){
         if($("#material"+index+" .cantidad_req").val() > 1|| $("#material"+index+" .cantidad_req").val() < 0 ){
 			toastr.error('Lo sentimos, el número que estas digitando no puede ser mayor a 1 o/e inferior a 0', '!Hola!')
         }else if($("#material"+index+" .valor_unitreq").val() > 4 || $("#material"+index+" .valor_unitreq").val() < 0){
 			toastr.error('Lo sentimos, el número que estas digitando no puede ser mayor a 4 o/e inferior a 0', '!Hola!')
         }else{
-         
+
             var Relativo  = $("#material"+index+" .cantidad_req").val();
-           
+
             var Calificacion = $("#material"+index+" .valor_unitreq").val();
-      
+
             var tot = ($("#material"+index+" .cantidad_req").val()) * $("#material"+index+" .valor_unitreq").val();
            $("#material"+index+" .valor_totreq").val(tot);
 
         }
         calcTotal();
     }
-    
+
     function calcTotal() {
             var tot = 0;
             var Relativo = 0;
@@ -311,7 +318,7 @@
                      toastr.error('Lo sentimos, el total Peso Relativo, no puede ser mayor a 1 o/e inferior a 0', '!Hola!')
             }
 
-			
+
 			var PuntuaciónPonderada = parseFloat(localStorage.getItem('PuntuaciónPonderada'));
 
 			var pesorpesoPonderado = parseFloat($("#granTotal").val());
@@ -325,7 +332,7 @@
 			}else{
 					localStorage.getItem('PuntuaciónPonderada',suma)
 			}
-							
+
     }
 
 
@@ -355,7 +362,7 @@
 										$('#granTotal').html(i.totalCalificacion);
 										$('#pesorpesoPonderado').html(i.puntuacionPonderada);
 										$('#totalcalificacion').html(i.totalCalificacion);
-										
+
 									}
 								}
 							}
