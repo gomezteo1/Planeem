@@ -248,7 +248,13 @@
     Route::get('/vista2-2', function () {return view('Modulo4.vista2-2');})->name('vista2-2')->middleware('disablepreventback')->middleware('verified')->middleware('auth');
     Route::get('/analisisAnsorft', function () {return view('Modulo2.analisisAnsorft');})->name('analisisAnsorft')->middleware('verified')->middleware('auth');
     
-    
+    //cotrolador indicadores de objetivos controller // creado: YrLondon
+    Route::get('indicadores/{id}','IndicadoresDeObjetivosController@index')->name('Indicadores');
+    Route::get('indicador/{id}','IndicadoresDeObjetivosController@indicador');
+    Route::get('resumenObjetivos','ResumenObjetivosController@index')->name('resumenObjetivos');
+    Route::post('resumenObjetivos','ResumenObjetivosController@create');
+
+
     /*
      Rutas eliminadas pero existentes con el nuevo diseño 
          /analisisDofa
