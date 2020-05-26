@@ -12,7 +12,7 @@
  @csrf
  <div class="form-group">
   <div class="contenedor5">
-    <h2 class="edita">MEGA EMPRESARIAL</h2>
+    <h2 class="edita">Mega Empresarial</h2>
     <br><br>
     <p id="menga4"></p>
   </div>
@@ -21,9 +21,9 @@
     <textarea name="Mision_Organizacional" id="Mision6" ></textarea>
 
     <textarea name="Vision_Organizacional" id="Vision3" ></textarea>
-    
+
     <textarea name="Mega_Empresarial" id="menga1" ></textarea>
-    
+
     <textarea name="Propuesta_valor" id="propuesad" ></textarea>
 
     <textarea name="nombre_proyecto" id="nombre_proyecto"></textarea>
@@ -41,7 +41,7 @@
 
   <br>
   <a data-toggle="modal" data-target="#exampleModal" style="color:white;" class="siguiente btn btn-planeem waves-effect waves-light">Guardar</a>
-  <a href="{{ route('MEGA/edt')}}" style="color:white;" onclick="paso2()"  class="anterior btn btn-planeem waves-effect waves-light">Anterior</a>
+  <a href="{{ route('MEGA/edt')}}" style="color:white;" onclick="paso2()"  class="anterior btn btn-planeem waves-effect waves-light">Editar</a>
 
   <span class="icon-info" data-toggle="modal" data-target="#exampleModalScrollable" style="cursor:pointer;"></span>
   <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
@@ -54,11 +54,17 @@
 
         </div>
         <div class="modal-body">
-          <p>Una de las mejores maneras de comenzar a redactar la visión es usar frases concisas y en infinitivo que vayan
-            de lo particular a lo global y de lo concreto a lo emotivo.<br>
-            La imagen debe reflejar una aceptación de las características de la empresa, los socios y el equipo. Además.
-            depende completamente de los objetivos estratégicos.
-          </p>
+          <p class="Nota" style="margin-left: 0.5px; font-weight: bold; font-size: 15px";>Fin del Desarrollo de la Mega Empresarial:</p>
+									<p>Para desarrollar la Mega Empresarial debe responder las siguientes preguntas en los recuadros habilitados:<br>
+                                    ¿Cuál es su objetivo desafiante?<br>
+                                    ¿Cuál es la definición de su nicho de mercado?<br>
+                                    ¿Cuál es el horizonte del tiempo de su empresa?<br><br>
+                                    Recuerda:  la Mega Empresarial Se trata de la meta ganadora y audaz, que se fundamenta
+                                    en una ventaja competitiva única y centrada en la innovación, que cuenta con una estrategia
+                                    clara y permite a las empresas un crecimiento rentable y sostenido en el tiempo.
+                                    <br>{vista23}
+
+									</p>
         </div>
       </div>
     </div>
@@ -90,7 +96,7 @@
     /*width: 126%;*/
     border: 2px solid #0AB5A0;
   }
-</style> 
+</style>
 </form>
 
 
@@ -177,7 +183,7 @@
 
   </script>
 
-{{-- 
+{{--
 <script>
   let progreso = localStorage.getItem('progressbar');
   let progreso2 = localStorage.getItem('progressbar2')

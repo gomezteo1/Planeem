@@ -109,7 +109,7 @@
 				<div class="modal-dialog modal-dialog-scrollable" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
-							<h5 class="modal-title" id="exampleModalCenterTitle" style="margin-left: 252px; font-weight: bold;">PROPUESTA DE VALOR</h5>
+							<h5 class="modal-title" id="exampleModalCenterTitle" style="margin-left: 252px; font-weight: bold;">Propuesta De Valor</h5>
 							<span class="icon-cancel-circle" style="color:#FC7323; font-size: 32px; cursor: pointer; margin-top: 4px;
 							margin-left: 10%;" data-dismiss="modal" aria-label="Close"></span>
 
@@ -150,7 +150,7 @@
 			<br><br>
 			<ul class="items">
 
-				<li ><a    ><h6>Propuesta de valor</h6><span class="rounded-circle">01</span></a></li>
+				<li ><a    ><h6>Propuesta de Valor</h6><span class="rounded-circle">01</span></a></li>
 
 				<li ><a   id="linkid"><h6>Misión Organizacional</h6><span class="rounded-circle">02</span></a></li>
 
@@ -214,7 +214,7 @@
 						<h2>Módulo 1</h2>
 					</div>
 						<div>
-						<div class="barrita" ><h4 style="font-size: 16px;">Propuesta de valor</h4></div>
+						<div class="barrita" ><h4 style="font-size: 16px;">Propuesta Ve Valor</h4></div>
 						<input class="barritache"  type="checkbox" style="cursor: pointer;" name="Propuesta_valor" value="Propuesta_valor">
 					</div>
 					<div>
@@ -374,7 +374,7 @@
 			<div class="row">
 				<div class="col-sm-3">
 					<div class="card" style="max-width: 18rem; border: #0AB5A0 1px solid;">
-						<div class="card-header" style="background: #0AB5A0; text-align:center;">PROPUESTA DE VALOR</div>
+						<div class="card-header" style="background: #0AB5A0; text-align:center;">Propuesta de Valor</div>
 						<div class="card-body" style="color: black;">
 							<form action="{{ route('updatePropuesta') }}" method="POST" >
 								@csrf
@@ -388,7 +388,7 @@
 					</div>
 					<div class="col-sm-3">
 						<div class="card" style="max-width: 18rem; border: #0AB5A0 1px solid;">
-							<div class="card-header" style="background: #0AB5A0; text-align:center;">MISIÓN ORGANIZACIONAL</div>
+							<div class="card-header" style="background: #0AB5A0; text-align:center;">Misión Organizacional</div>
 							<div class="card-body" style="color: black;">
 								<form action="{{ route('update/Mision') }}" method="POST" >
 									@csrf
@@ -404,7 +404,7 @@
 
 					<div class="col-sm-3">
 						<div class="card" style="max-width: 18rem; border: #0AB5A0 1px solid;">
-							<div class="card-header" style="background: #0AB5A0; text-align:center;">VISIÓN ORGANIZACIONAL</div>
+							<div class="card-header" style="background: #0AB5A0; text-align:center;">Visión Organizacional</div>
 							<div class="card-body" style="color: black;">
 								<form action="{{ route('update/Vision') }}" method="POST" >
 									@csrf
@@ -418,7 +418,7 @@
 					</div>
 					<div class="col-sm-3">
 						<div class="card" style="max-width: 18rem; border: #0AB5A0 1px solid;">
-							<div class="card-header" style="background: #0AB5A0; text-align:center;">MEGA EMPRESARIAL</div>
+							<div class="card-header" style="background: #0AB5A0; text-align:center;">Mega Empresarial</div>
 							<div class="card-body" style="color: black;">
 								<form action="{{ route('update/mega') }}" method="POST" >
 									@csrf

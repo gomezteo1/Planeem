@@ -59,11 +59,11 @@
 		</div>
 	</div>
 	
-  <form method="POST" style="display:none" id="form" action="{{route('analisisDOFA')}}" >
+  <form method="POST" style="display:none" id="form" action="{{route('analisisEFI')}}" >
 	@csrf
 		<input type="text" id="id_planecion" name="id_planecion">	
 		<button  type="submit" id="btn12">		
-</form>
+  </form>
 
 
 </section>

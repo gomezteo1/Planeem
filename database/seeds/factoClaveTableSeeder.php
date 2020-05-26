@@ -14,74 +14,74 @@ class factoClaveTableSeeder extends Seeder
     {
 
         factorclave::create([
-            'nombre' => 'Lealtad del cliente'
+            'nombre' => 'La participación en el mercado'
         ]);
 
         factorclave::create([
-            'nombre' => 'Componente innovador'
+            'nombre' => 'Los precios'
         ]);
         factorclave::create([
-            'nombre' => 'Superioridad Tecnológica'
+            'nombre' => 'Los atributos del producto'
         ]);
         factorclave::create([
-            'nombre' => 'Reconocimiento en el canal'
+            'nombre' => 'La calidad del Producto'
         ]);
         factorclave::create([
-            'nombre' => 'Ubicación estratégica'
+            'nombre' => 'La satisfacción del consumidor'
         ]);
         factorclave::create([
-            'nombre' => 'Número de competidores'
+            'nombre' => 'El margen de utilidad'
         ]);
         factorclave::create([
-            'nombre' => 'Capacidad de negociación'
+            'nombre' => 'El posicionamiento en el mercado'
         ]);
         factorclave::create([
-            'nombre' => 'Tiempo de respuesta'
+            'nombre' => 'La oferta de valor'
         ]);
         factorclave::create([
-            'nombre' => 'Capacidad de negociación con el cliente'
+            'nombre' => 'La antigüedad en el mercado'
         ]);
         factorclave::create([
-            'nombre' => 'Capacidad de negociación con el proveedor'
+            'nombre' => 'El componente Innovador'
         ]);
         factorclave::create([
-            'nombre' => 'Rotación de personal'
+            'nombre' => 'Los canales de distribución'
         ]);
         factorclave::create([
-            'nombre' => 'Plataforma web'
+            'nombre' => 'El tiempo de respuesta'
         ]);
         factorclave::create([
-            'nombre' => 'Capacidad de negociación'
+            'nombre' => 'La rotación de productos'
         ]);
         factorclave::create([
-            'nombre' => 'Herramientas tecnológicas'
+            'nombre' => 'Las ventas online'
         ]);
         factorclave::create([
-            'nombre' => 'Fuerza de ventas'
+            'nombre' => 'La fuerza de ventas'
         ]);
         factorclave::create([
-            'nombre' => 'Servicio PostVenta'
+            'nombre' => 'El servicio postventa'
         ]);
         factorclave::create([
-            'nombre' => 'Buzón de sugerencias'
+            'nombre' => 'La publicidad'
         ]);
         factorclave::create([
-            'nombre' => 'Margen de utilidad'
+            'nombre' => 'El portafolio de productos'
         ]);
         factorclave::create([
-            'nombre' => 'Retención de empleados'
+            'nombre' => 'La presencia en Redes sociales '
         ]);
         factorclave::create([
-            'nombre' => 'Capacidad tecnológica'
+            'nombre' => 'El valor diferencial.'
         ]);
-        factorclave::create([
-            'nombre' => 'Ventas Onlinne'
-        ]);
-        factorclave::create([
-            'nombre' => 'Eficiencia en la producción'
-        ]);
-        factorclave::create([
-            'nombre' => 'Diseño del producto'
-        ]);
+        // factorclave::create([
+        //     'nombre' => 'Ventas Onlinne'
+        // ]);
+        // factorclave::create([
+        //     'nombre' => 'Eficiencia en la producción'
+        // ]);
+        // factorclave::create([
+        //     'nombre' => 'Diseño del producto'
+        // ]);
     }
 }

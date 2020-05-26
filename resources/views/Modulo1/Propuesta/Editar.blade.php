@@ -2,13 +2,11 @@
 
 @section('content')
 
-
-
  <div>
-               
-       
+
+
         <div id="text" class="contenedor3">
-               
+
                 {{-- Campo de texto  --}}
                 <textarea maxlength="1205"  id="propuesta"  class="campo  @error('para') is-invalid @enderror"   name="para"  required> </textarea>
         </div>
@@ -28,8 +26,6 @@
 
    </div>
 
-
-
         <script>
                 var propuesta = localStorage.getItem('propuesta');
                 document.getElementById('propuesta').innerHTML = propuesta ;
@@ -43,7 +39,7 @@
                 }
         </script>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
 <script>
 
@@ -70,7 +66,6 @@
                 })
     </script>
 
-
 <style >
 	body{
 
@@ -84,21 +79,6 @@
 
 	</style>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <style >
 	body{
 
@@ -111,7 +91,5 @@
 	}
 
 	</style>
-
-
 
 @endsection

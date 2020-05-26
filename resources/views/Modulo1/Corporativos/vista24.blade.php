@@ -9,94 +9,77 @@
 <form method="POST" >
 	@csrf
 	<div class="contenedor8">
-		<h3 style="color: black; text-align: center;">VALORES CORPORATIVOS</h3>
+		<h3 style="color: black; text-align: center;">Valores Corporativos</h3>
 		<p style="color: grey;">Se recomienda seleccionar de 3 a 5 valores corporativos para su empresa</p>
 
 
 			<div class="row valorescont">
 
 				<div class="col-md-4 contboton">
-					<option id="option1" onclick="option1()"  class="valores" mensaje="Es la posición que asume la empresa frente a los retos que representan los cambios del entorno para la sostenibilidad de su empresa. Tanto internos como en el ámbito social externo en el que se desenvuelve ésta. ... El empresario debe asumir una actitud empresarial para triunfar en su negocio y conseguir el éxito.">Actitud</option>
-					<option id="option2" class="valores" mensaje="Es el proceso a través del cual se adquieren nuevas habilidades, destrezas, conocimientos, conductas o valores como resultado del estudio, la experiencia, la instrucción, el razonamiento y la observación. Este proceso puede ser analizado desde distintas perspectivas, por lo que existen distintas teorías del aprendizaje."  onclick="option2()">Aprendizaje</option>
-					<option id="option3" class="valores" mensaje="Saber analizar las metas de trabajo y los pasos necesarios para conseguirlas asertivo es saber adónde vamos. Además, implica una conciencia del talento propio y del de los demás para saber ponerlos al servicio de los procesos que tengan lugar en la empresa." onclick="option3()">Asertividad</option>
-					<option id="option4" class="valores" mensaje="Tener la capacidad de analizar, cada cierto tiempo, las actividades y resultados de la empresa es una manera de evaluar cuáles son las fortalezas y debilidades que tiene la institución y, por ende, los trabajadores. Esto forma parte de saber asumir los aciertos y errores cometidos." onclick="option4()">Autocrítica</option>
-					<option id="option5" class="valores" mensaje="Es un concepto que deriva de la propia definición de Calidad, entendida como satisfacción de las necesidades y expectativas del cliente presentando productos y servicios de óptima calidad." onclick="option5()">Calidad de servicio</option>
-					<option  id="option6"  class="valores" mensaje="Designa las condiciones en que vive una persona que hacen que su existencia sea placentera y digna de ser vivida, o la llenen de aflicción. Es un concepto extremadamente subjetivo y muy vinculado a la sociedad en que el individuo existe y se desarrolla." onclick="option6()" >Calidad de vida</option>
-					<option id="option7" class="valores" mensaje="El compromiso de los trabajadores refleja la implicación intelectual y emocional de éstos con su empresa, y con ello su contribución personal al éxito de la misma. Los trabajadores comprometidos comparten una serie de creencias y actitudes que vistas en su conjunto reflejan el aspecto clave de la salud de la empresa." onclick="option7()">Compromiso</option>
-					<option id="option8" value="true" class="valores" mensaje="La comunicación es aquella que logra expresar de forma simple, oportuna y clara lo que se desea a otro individuo. La comunicación asertiva es el equilibrio entre una comunicación agresiva y una comunicación pasiva. Se trata de una habilidad social importante asociada a la inteligencia emocional y a la comunicación no verbal." onclick="option8()">Comunicación</option>
-					<option id="option9" class="valores" mensaje="A través de la constancia y la perseverancia se alcanzan objetivos. Ser constante significa trabajar y luchar por un logro, superar pruebas y no dejarse vencer por los errores o adversidades." onclick="option9()">Constancia</option>
+					<option id="option1" onclick="option1()"  class="valores" mensaje="Trabajamos con el sentimiento más grande que es el amor e influimos sobre nuestros colaboradores para que identifiquen y amen lo que hacen en cada área de la empresa.">Amor</option>
+					<option id="option2" class="valores" mensaje="Trabajamos en la transparencia y credibilidad para nuestros colaboradores y clientes, con la convicción de que nuestro proceder les genera seguridad y confianza. "  onclick="option2()">Confianza</option>
+					<option id="option3" class="valores" mensaje="La voluntad inquebrantable y continua determina el que hacer de nuestra labor empresarial." onclick="option3()">Constancia</option>
+					<option id="option4" class="valores" mensaje="Expresarnos de manera clara, simple, oportuna y direccionada nos permite tener mejores relaciones dentro de la empresa y nos conduce a resultados efectivos y eficientes de nuestros objetivos. " onclick="option4()">Comunicación</option>
+					<option id="option5" class="valores" mensaje="Estamos comprometidos con la información confidencial de nuestra empresa, tanto en los procesos como en la privacidad de datos de los colaboradores, clientes y Stakeholders" onclick="option5()">Confidencialidad</option>
+					<option  id="option6"  class="valores" mensaje="Promovemos el pensamiento disruptivo de nuestros colaboradores, clientes y stakeholders en pro de generar espacios de construcción, buscando siempre superar expectativas." onclick="option6()" >Creatividad</option>
+					<option id="option7" class="valores" mensaje="Fomentar la responsabilidad con nuestros colaboradores, clientes y stakeholders es la forma de entender nuestra actividad empresarial y la importancia del trabajo bien hecho." onclick="option7()">Compromiso</option>
+					<option id="option8" class="valores" mensaje="Trabajamos de manera inclusiva con un equipo multidisciplinario, de diferente raza, religión y género, sin discriminación alguna." onclick="option8()">Diversidad</option>
+					<option id="option9" value="true" class="valores" mensaje="Actuamos de manera perseverante y ordenada con base en los lineamentos empresariales para satisfacer las necesidades de nuestros colaboradores, clientes, y proveedores." onclick="option9()">Disciplina</option>
 
-					<option id="option10" class="valores" mensaje="Se entiende a la facultad que alguien tiene para crear y a la capacidad creativa de un individuo. Consiste en encontrar procedimientos o elementos para desarrollar labores de manera distinta a la tradicional, con la intención de satisfacer un determinado propósito. La creatividad permite cumplir deseos personales o grupales de forma más veloz, sencilla, eficiente o económica." onclick="option10()">Creatividad</option>
 
-					<option id="option11" class="valores" mensaje="El camino hacia el bienestar y el crecimiento personal implica lograr el equilibrio y la armonía en el día a día, en la relación con nosotros mismos y con los demás. Por eso, es necesario observar e identificar si estamos en el lugar donde queremos estar y si estamos satisfechos con nuestra vida, y definir qué podemos hacer para mejorar lo que no nos hace satisface, así es posible trabajar para que ese cambio sea posible." onclick="option11()">Crecimiento personal</option>
-
-					<option id="option12" class="valores" mensaje="La disciplina de las personas se refleja en los resultados de su trabajo. Ser disciplinado se relaciona con la puntualidad, seguir las normas, ser proactivo, proponerse alcanzar objetivos y ser exigente. Por medio de la disciplina también se logran las metas." onclick="option12()">Disciplina</option>
 				</div>
 
 				<div class="col-md-4 contboton">
-					<option id="optiona2" class="valores" mensaje="Llevar a cabo las ideas de negocios requiere de mucho temple, y sobre todo tener por entendido que habrá la necesidad siempre de estar dispuesto al cambio, cuando las cosas no salen como se planean se requiere de pequeños o grandes ajustes que harán que nuestro camino tome un nuevo rumbo; habrá que estar con la disponibilidad y la capacidad de entender que las cosas no siempre salen como las previmos." onclick="optiona2_2()">Disponibilidad al cambio</option>
 
-					<option id="optiona3" class="valores" mensaje="Es la relación que existe entre los recursos empleados en una empresa y los resultados obtenidos con el mismo. Hace referencia sobre todo a la obtención de un mismo objetivo con el empleo del menor número posible de recursos o cuando se alcanzan más metas con el mismo número de recursos o menos. La eficiencia es muy importante en las empresas, ya que se consigue el máximo rendimiento con el mínimo coste." onclick="optiona2_3()">Eficiencia</option>
+                    <option id="option10"  class="valores" mensaje="Basados en los principios y normas de la empresa actuamos desde la cordialidad y entendimiento de las diferencias, escuchando y reconociendo el criterio de cada colaborador o cliente en pro de tomar decisiones correctas para afianzar la credibilidad y la confiabilidad en la empresa." onclick="option10()">Ética</option>
 
-					<option  id="optiona4"   class="valores" mensaje="Se define como una habilidad social, tanto cognitiva como emocional, que permite ponerse en la situación emocional de otra persona. Tener empatía es entender actitudes, acciones o sentimientos de otras personas, conectar con sus emociones y entender los deseos, miedos o enfados." onclick="optiona2_4()">Empatía</option>
+                    <option id="option11" class="valores" mensaje="Buscamos permanentemente habilidades sociales de convivencia que nos permitan entender las actitudes y acciones que guían el comportamiento de nuestros colaboradores, clientes y proveedores." onclick="option11()">Empatía</option>
 
-					<option id="optiona5"   class="valores" mensaje="Se entiende a la característica de flexible. Se trata de una palabra que permite resaltar la disposición de un individuo u objeto para ser doblado con facilidad, la condición de plegarse según la voluntad de otros y la susceptibilidad para adaptarse a los cambios de acuerdo a las circunstancias." onclick="optiona2_5()" >Flexibilidad</option>
+                    <option id="option12" class="valores" mensaje="Tratamos a nuestros colaboradores con igualdad y respeto, brindándoles herramientas y valores para el crecimiento y reconocimiento de su dignidad humana." onclick="option12()">Equidad</option>
 
-					<option id="optiona6"  class="valores" mensaje="Es un valor o cualidad propio de los seres humanos que tiene una estrecha relación con los principios de verdad y justicia y con la integridad moral. Una persona honesta es aquella que procura siempre anteponer la verdad en sus pensamientos, expresiones y acciones." onclick="optiona2_6()">Honestidad</option>
 
-					<option id="optiona7" class="valores" mensaje="Es la manera más adecuada de conducir una empresa. Las grandes compañías que logran alcanzar el éxito deseado, son aquellas que plantean estrategias para el bienestar y el desarrollo de sus colaboradores para así alcanzar un desarrollo favorable y una estabilidad." onclick="optiona2_7()">Humanismo</option>
 
-					<option  id="optiona8" class="valores" mensaje="Es la cualidad que poseen algunas personas de poder por sí mismos iniciar alguna cuestión, bien sea comenzar una actividad, o buscar soluciones a alguna problemática. Lo que se debe tener en cuenta con este término es que una de sus características principales es que la iniciativa nace de cada persona, es decir, no hay ningún factor externo que lo impulse para lograr su objetivo." onclick="optiona2_8()">Iniciativa</option>
+					<option id="optiona2" class="valores" mensaje="Adaptarnos a los cambios y aceptar los nuevos retos que nos depara el futuro nos permite el desarrollo empresarial permanente y nos prepara eficazmente para entornos competitivos. " onclick="optiona2_2()">Flexibilidad</option>
 
-					<option id="optiona9" class="valores" mensaje="Ser íntegro se refiere a ser auténtico y honesto durante las relaciones laborales. Exponer una situación o caso tal cual como es, no hacer estafas ni falsas promesas a otras personas, clientes o proveedores." onclick="optiona2_9()">Integridad</option>
+					<option id="optiona3" class="valores" mensaje="Actuamos de manera correcta con énfasis en nuestros colaboradores, incentivando las relaciones sanas de honestidad y convivencia." onclick="optiona2_3()">Honestidad</option>
 
-					<option id="optiona10" class="valores" mensaje="Es un valor que inclina a obrar y juzgar, teniendo por guía la verdad y dando a cada uno lo que le pertenece, y lo que le pertenece a cada uno es su realización y su dignidad. La justicia como valor democrático es un nivel que se desea alcanzar y está vinculado estrictamente al valor." onclick="optiona2_10()">Justicia</option>
+					<option  id="optiona4"   class="valores" mensaje="Impulsamos e incentivamos la habilidad de dirigir y guiar en nuestros colaboradores con el fin de contribuir a la efectividad y el éxito de su superación personal, brindarles un sentido de pertenencia por su labor y el crecimiento de la empresa." onclick="optiona2_4()">Liderazgo</option>
 
-					<option id="optiona11" class="valores" mensaje="Es la habilidad de un individuo de influenciar, motivar e inspirar a que otros contribuyan a la efectividad y al éxito de las organizaciones de las que son miembros. ... Un líder es capaz de constituir reglas para orientar y conducir a otros a la concreción de los objetivos establecidos." onclick="optiona2_11()">Liderazgo</option>
+					<option id="optiona5"   class="valores" mensaje="Trabajamos en equipo con simplicidad, respeto y buen trato, teniendo en cuenta los aportes dados por los grupos de trabajo incrementando las relaciones interpersonales con nuestros colaboradores y clientes." onclick="optiona2_5()" >La sencillez</option>
 
-					<option id="optiona12" class="valores" mensaje="La perseverancia en un empresario significa logros, quien esté dispuesto a tener negocios productivos, necesariamente requiere de levantarse y luchar todos los días en contra de las adversidades y de los problemas que se puedan presentar, esto aunado a una motivación empresarial a toda prueba; Darse por vencido o tener pensamientos negativos suelen ser factores que pueden inundar la mente del empresario todos los días, habrá que luchar incesantemente contra estos pensamientos para no dejarse vencer." onclick="optiona2_12()">Perseverancia</option>
+					<option id="optiona6"  class="valores" mensaje="Somos ordenados con nuestro direccionamiento como empresa, teniendo planteamientos estratégicos que guíen a nuestros colaboradores a tomar acciones acertadas en pro de los beneficios de la empresa. " onclick="optiona2_6()">Orden</option>
 
-					<option id="optiona13" class="valores" mensaje="En la organización. ... Por el contrario, si un trabajador está convencido que la compañía es buena y que le da beneficios es una persona que realmente luchará en pro de las metas de la empresa y lo que necesitan las organizaciones es que su fuerza laboral esté unida y se trabaje en equipo."  onclick="optiona2_13()">Pertenencia</option>
+					<option id="optiona7" class="valores" mensaje="Trabajamos con convencimiento, pasión y constancia para entregar siempre lo mejor como organización, comprendiendo las eventuales dificultades como caminos al éxito. " onclick="optiona2_7()">Perseverancia</option>
+
+
 				</div>
 
 
 				<div class="col-md-4 contboton">
-					<option  id="option3_1"   class="valores" mensaje="Tomar acción sobre las oportunidades que se nos presentan a diario; prever, intuir, y actuar de manera positiva sobre todos los problemas que puedan ocurrir en el negocio, uno debe ser capaz de reaccionar instantáneamente y de forma eficaz, en todas o en casi todas las situaciones que puedan surgir." onclick="optiona3_1()">Pro actividad</option>
+                    <option  id="optiona8" class="valores" mensaje="Impulsamos a nuestros colaboradores en la toma de decisiones, de manera acertada y positiva sobre las dificultades que se presenten en nuestra organización, desde su conocimiento y experiencia. " onclick="optiona2_8()">Pro actividad</option>
 
-					<option   id="option3_2"    class="valores" mensaje="Es la manera o la forma de desarrollar cierta actividad profesional con un total compromiso, mesura y responsabilidad, acorde a su formación específica y siguiendo las pautas preestablecidas socialmente." onclick="optiona3_2()">Profesionalismo</option>
+                    <option id="optiona9" class="valores" mensaje="Actuamos de manera correcta y atenta, priorizando la dignidad de nuestros colaboradores, clientes, proveedores y stakeholders de la empresa, considerando el valor que representan. " onclick="optiona2_9()">Respeto</option>
 
-					<option   id="option3_3"  class="valores" mensaje="Es la virtud de actuar de forma justa, adecuada y con cautela, respetando los sentimientos, la vida y las libertades de las demás personas, pero también es la cualidad de comunicarse con un lenguaje claro, cuidadoso y acertado; con sensatez, con moderación y reflexión." onclick="optiona3_3()">Prudencia</option>
+                    <option id="optiona10" class="valores" mensaje="Estimulamos y potencializamos las capacidades de nuestros colaboradores para el desarrollo personal, con el fin de buscar el logro empresarial." onclick="optiona2_10()">Reconocimiento</option>
 
-					<option  id="option3_4"  class="valores" mensaje="Tratar a todas las personas por igual, valorar su trabajo y corregir los errores, es un trato de respeto. Cuando las personas son respetadas se sienten aceptadas y motivadas por seguir con sus trabajos y desarrollando sus capacidades personales y laborales." onclick="optiona3_4()">Respeto</option>
+                    <option id="optiona11" class="valores" mensaje="Promulgamos la disposición para realizar las actividades de manera adecuada y en el tiempo establecido, con determinación en pro del cumplimiento de los objetivos empresariales y la satisfacción de nuestros clientes." onclick="optiona2_11()">Responsabilidad</option>
 
+                    <option id="optiona12" class="valores" mensaje="Nos caracterizamos porque siempre unimos fuerzas, recursos, voluntades, para satisfacer necesidades comunes; consolidándonos como una empresa que busca mejorar la calidad de vida de todos los que se relacionan con ella." onclick="optiona2_12()">Solidaridad</option>
 
-					<!-- optiona3_5() -->
-					<option  id="option3_5" class="valores" mensaje="Cuando se inicia un negocio se adquieren un sinnúmero de responsabilidades, tanto de índole personal como de índole social; el concepto de la responsabilidad es entender que se deben respetar una serie de lineamientos y reglas, además de contribuir en el crecimiento y la armonía del entorno en el que nos desenvolvemos y con las personas que interactuamos." onclick="optiona3_5()">Responsabilidad</option>
+                    <option id="optiona13" class="valores" mensaje="Trabajamos en pro del equilibrio de recursos naturales y ecológicos en el desarrollo de nuestras actividades laborales, con el fin de optimizar recursos existentes y no comprometer recursos futuros como aporte al medio ambiente."  onclick="optiona2_13()">Sustentabilidad</option>
 
-					<option id="option3_6" class="valores" mensaje="Es un valor empresarial y social que se refiere al compromiso que tiene una empresa o corporación con la comunidad donde se ubica. La finalidad es generar y poner en práctica diversas iniciativas y actividades que contribuyan a mejorar la vida en comunidad." onclick="optiona3_6()">Responsabilidad Social</option>
+					<option  id="option3_1"   class="valores" mensaje="Buscamos que nuestros colaboradores se sientan parte importante de la empresa, para lograr la identificación y apropiación con su labor." onclick="optiona3_1()">Sentido de pertenenctia</option>
 
-					<option id="option3_7" class="valores" mensaje="Es la resistencia frente a la adversidad y la capacidad de reconstruirse es una actitud vital positiva a pesar de las circunstancias difíciles, y representa el lado positivo de las cosas también en saber aprender de la derrota y transformarla en oportunidades." onclick="optiona3_7()">Resiliencia</option>
+					<option   id="option3_2"    class="valores" mensaje="Buscamos aumentar la confianza entre quienes tienen relación con la empresa, ya sean los colaboradores, los clientes, los accionistas o los proveedores; a través de la transparencia la empresa hace saber a la sociedad cómo actúa, abriendo paso a posibles críticas o juicios de valor. " onclick="optiona3_2()">Transparencia</option>
 
-					<option id="option3_8" class="valores" mensaje="Es el valor de ser humildes y empáticos con la gente, sin importar los títulos profesionales o el reconocimiento que se tenga ante otros. El valor de la sencillez,  permite ser conscientes de que otros merecen de respeto y buen trato, sin importar el estatus social o prestigio social." onclick="optiona3_8()">Sencillez</option>
-
-					<option id="option3_9" class="valores" mensaje="Responsabilidad solidaria de las empresas se enmarca dentro de un concepto más amplio, el de la Responsabilidad Social Corporativa. Al hablar de solidaridad empresarial, nos referimos a la contribución que las compañías hacen de alguna u otra forma al entorno en el que operan." onclick="optiona3_9()">Solidaridad</option>
-
-					<option  id="option3_10" class="valores" mensaje="Busca aumentar la confianza entre quienes tienen relación con la empresa, ya sean los empleados, los clientes, los accionistas o los proveedores. ... A través de la transparencia, la empresa hace saber a la sociedad cómo actúa, abriendo paso a posibles críticas o juicios de valor." onclick="optiona3_10()">Transparencia</option>
-
-
-					<option   id="option3_11" class="valores" mensaje="Cuando alguien tiene el convencimiento y la pasión por ejercer una actividad profesional se dice que tiene vocación. Por otra parte, la idea de servicio en un sentido general se refiere a la acción de servir, es decir, mantener una actitud de empatía hacia los demás. Consecuentemente, el concepto de vocación de servicio se refiere a la inclinación profesional orientada a satisfacer las necesidades ajenas." onclick="optiona3_11()">Vocación de servicio</option>
-
-
-                    <a id="boton" class="button" value="AÑADIR" id="boton1" data-toggle="modal" data-target="#exampleModal0" >AÑADIR VALOR<span class="icon-eye-plus"></span></a></div>
-                </div>
-			<div class="hover">
-					<h2>Hover</h2>
+				<a  id="boton" class="button bbs" value="AÑADIR" id="boton1" data-toggle="modal" data-target="#exampleModal0"style="border: #0AB5A0 2px solid;border-radius: 26px;padding: 0px 80px 18px 104px;color: grey;left: 6%;width: 69%;bottom: -21%;position: relative;font-weight: 500;font-size: 14px;text-align: center;"     
+				>AÑADIR VALOR<span class="icon-eye-plus"></span></a>
 				</div>
-	</div>
+			     <div class="hover"><h2>Hover</h2> </div>
+	        </div>
+    </div>
 
 
-		</div>
-	</div>
 
 
 
@@ -116,7 +99,7 @@
                             <div>
                                 <h5 id="alert" ></h5>
 								<textarea class="form-control form-control2" maxlength="504"  id="Descripcion" style="color:black;"></textarea>
-								
+
                             </div>
 
                             <div><a style="color:white;" data-dismiss="modal" aria-label="Close"  onclick="guardar()" class="aceptarcapacidad btn btn-planeem waves-effect waves-light">Añadir</a>
@@ -149,10 +132,9 @@
 
 		</div>
 		<div class="modal-body">
-		  <p>Una de las mejores maneras de comenzar a redactar la visión es usar frases concisas y en infinitivo que vayan
-			de lo particular a lo global y de lo concreto a lo emotivo.<br>
-			La imagen debe reflejar una aceptación de las características de la empresa, los socios y el equipo. Además.
-			depende completamente de los objetivos estratégicos.
+		  <p>A continuación, se muestra una lista de valores en la cual usted puede seleccionar los Valores Corporativos
+              pertinentes que pueden acoplarse a los ideales de su empresa. En caso de que tenga unos propios puede
+              agregarlo en la opción agregar valor.
 		  </p>
 		</div>
 		</div>

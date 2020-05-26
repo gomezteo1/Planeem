@@ -9,12 +9,14 @@
 		<h4>¿Cómo se elabora?</h4>
 		<p>Se llevan a cabo las Auditorías Internas y Externas, a fin de recabar los Factores claves del éxito, internos y externos. Finalmente, para tener una visión general de la empresa, se elabora un gráfico que abarca las dos matrices.</p>
 	</div>
-	<form id="form" style="display:none" action="{{ route('analisisEFI')}}" method="POST" role="form">
+	<form id="form" style="display:none" action="{{ route('analisisEFIgrafica')}}" method="POST" role="form">
 		@csrf
 		<input type="text" name="id_Planeacion" value="{{$id_Planeacion}}">
 		<button type="submit" id="btn1"></button>
-		</form>
-	<a onclick="analisisEFI()" style="color:white;" name="nuevo" class="Ahora btn btn-planeem waves-effect waves-light">Iniciar Ahora</a>
+	</form> 
+		<a href="{{route('analisisEFIgrafica')}}" onclick="analisisEFI()" style="color:white;" name="nuevo" class="Ahora btn btn-planeem waves-effect waves-light">Iniciar Ahora</a>
+	
+	
 	<span class="icon-info" data-toggle="modal" data-target="#exampleModalScrollable" style="cursor:pointer;"></span>
 	<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-scrollable" role="document">

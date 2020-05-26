@@ -12,15 +12,11 @@
     @include('modal/modal')
 </header>
 <div class="contenedor4">
-    <h1 style="text-align: center; font-weight: bold; padding: 12px;">Que es la Matriz de Perfil Competitivo Plataforma Estratégica</h1>
+    <h1 style="text-align: center; font-weight: bold; padding: 12px;">Matriz de Perfil Competitivo</h1>
     <p style="padding: 10px;line-height: 23px;margin-left: 194px;width: 70%;font-size: 18px;text-align: justify;">
-        La matriz de perfil competitivo (MPC) identifica los principales competidores de una compañía así
-        como sus fortalezas y debilidades principales en relación con la posición estratégica de una
-        empresa que se toma como muestra (Maradiaga & Peralta, 2018)
-        La matriz de Perfil competitivo es una herramienta para hacer análisis comparativos entre las
-        empresas y sus competidores, Este análisis proporciona información estratégica interna importante,
-        no hay límite, se sugiere que el cuadro comparativo se haga con máximo 10 empresas, las más
-        representativas del sector y estén en relación directa de competencia con la empresa.
+        La Matriz del Perfil Competitivo identifica a los principales competidores de la empresa, así como sus fuerzas y debilidades particulares, en relación con una muestra de la posición estratégica de la empresa.
+         Esta herramienta se desarrolla a través de un análisis comparativo entre las empresas y sus competidores, Este análisis proporciona información estratégica interna importante, 
+        no hay límite, se sugiere que el cuadro comparativo se realice mínimo con 1 empresa y máximo 5. Las empresas seleccionadas serán las más representativas del sector que estén en relación directa en competencia con su empresa.
     </p>
     <a data-toggle="modal" data-target="#exampleModalFormulario" style="color:white;" name="nuevo" class="Ahora btn btn-planeem waves-effect waves-light">Iniciar Ahora</a>
 </div>

@@ -8,16 +8,12 @@
 	@endsection
 
 	<div class="contenedor4">
-		<h1 style="text-align: center; font-weight: bold; padding: 12px;">Matriz de evaluación de factores internos Matriz EFI</h1>
+		<h1 style="text-align: center; font-weight: bold; padding: 12px;">Matriz de Evaluación de Factores Internos</h1>
 		<p style="padding: 10px;line-height: 23px;margin-left: 194px;width: 70%;font-size: 18px;text-align: justify;">
-			La matriz de perfil competitivo (MPC) identifica los principales competidores de una compañía así
-			como sus fortalezas y debilidades principales en relación con la posición estratégica de una
-			empresa que se toma como muestra (Maradiaga & Peralta, 2018)
-			La matriz de Perfil competitivo es una herramienta para hacer análisis comparativos entre las
-			empresas y sus competidores, Este análisis proporciona información estratégica interna importante,
-			no hay límite, se sugiere que el cuadro comparativo se haga con máximo 10 empresas, las más
-			representativas del sector y estén en relación directa de competencia con la empresa.
-
+			La matriz de evaluación de factores internos denominada también (MEFI), es un instrumento para formular estrategia, 
+			resume y evalúa las fuerzas y debilidades más importantes dentro de las áreas funcionales
+			 de una empresa y además ofrece una base para identificar y evaluar las relaciones entre dichas áreas.
+			<br><br>{vista factoresInternosI}
 		</p>
 	</div>
 	<form action="{{ url('factorInt')}} " method="post"  role="from">
@@ -36,31 +32,33 @@
 
 				</div>
 				<div class="modal-body">
-
-					<ol style="line-height: 17px; margin-top: 1%;">
-						<b style="color: black; font-weight: bold;">La matriz EFE se desarrolla en cinco pasos:</b>
-						<br><br>
-						Pasos para realizar la evaluación de La matriz EFE<br>
-						1: se debe hacer una lista factores identicados que incluyan Amenazas y oportunidades de la empresa (deben ser
-						entre 10 y 20)<br>
-						2: Asignar un peso a cada variable, que va desde 0.0 a 1.0
-						0.0 Oportunidad o Amenaza no es muy importante
-						1.0 Oportunidad o Amenaza es muy importante<br>
-
-						3: A cada factor externo clave se le asigna una calicación de 1 a 4 puntos para indicar que tan ecaz responden las es-
-						trategias actuales de la empresa a este factor donde:<br><br>
-
-						Clasicación<br>
-						Condición<br>
-						4 -La respuesta es superior<br>
-						3 -La respuesta está por encima del promedio<br>
-						2 -La respuesta es promedio<br>
-						1 -La respuesta es deciente<br>
-						Por último se suman las puntuaciones ponderadas para cada variable. Con el n de determinar la puntuación
-						ponderada total para la empresa
+					<ol style="line-height: 10px; margin-top: 1%;">
+					   <b style="color: black; font-weight: bold; margin-left: 31px;">Desarrollo de la Matriz de Evaluación de Factores Internos:</b>
+					   <br><br>
+						<p style="padding: 10px;line-height: 21px;margin-left: 21px;width: 95%;font-size: 15px;text-align: justify;">
+							A continuación, encontrará una lista de factores internos donde se muestran
+							las fortalezas y debilidades de su empresa, estas son el resultado de
+							la realización de la matriz de capacidad interna y matriz de perfil competitivo.
+							Debe seguir los siguientes pasos:
+							1.En la casilla peso ponderado: Asignar un peso entre 0.0 (no importante)
+							hasta 1.0 (muy importante), el peso otorgado a cada factor expresa la
+							importancia relativa del mismo, y el total de todos los pesos en su conjunto debe tener la suma de 1.0.
+							2.En la casilla calificación: Asignar una calificación entre 1 y 4 a cada uno de los factores donde:<br>
+							1.= Mayor debilidad<br>
+							2.=Menor debilidad<br>
+							3.=Menor fuerza<br>
+							4.=Mayor fuerza<br>
+							La Sumatoria total de las calificaciones ponderadas de cada factor
+							permiten determinar el total ponderado de la empresa en su conjunto,
+							teniendo en cuenta las siguientes interpretaciones:
+							Si la calificación total del peso ponderado es por debajo del 2.5 indica
+							que la empresa es Internamente DEBIL, Si la calificación total del
+							peso ponderado es por encima del 2.5 indica que la empresa es Internamente FUERTE<br>
+							¡Empecemos!.....
+						</p>
 					</ol>
-				</div>
-			</div>
+				 </div>
+			</div>	 
 		</div>
 	</div>
 	

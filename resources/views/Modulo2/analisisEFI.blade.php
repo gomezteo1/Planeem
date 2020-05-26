@@ -27,7 +27,8 @@
                 1.0: Muy importante</p>
 	</div>
 </section>
-		<!-- contenedores -->
+
+	<!-- contenedores -->
 		<div class="row">
   			<div class="col-md-6 conte1" data-toggle="modal" data-target="#exampleModal">
   					<div class="botonopo1" value="Fortalezas_ventana" >
@@ -81,8 +82,7 @@
 						</div>
 					</div>
   			</div>
-  			<a href="{{route('analisisEFIgrafica')}}" style="color:white;" name="nuevo" class="botonDofa btn btn-planeem waves-effect waves-light">Siguiente</a>
-		</div>
+			  <a  href="{{route('analisisAnsorft')}}" style="color:white;" name="nuevo" class="botonDofa btn btn-planeem waves-effect waves-light">Siguiente</a>		</div>
 
 	</section>
 <div class="infon">

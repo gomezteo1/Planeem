@@ -118,7 +118,7 @@
             </div>
             <div class="card-footer">
                 <button class="btn btn-secondary float-right" onclick="cleanInputsUpdate()"  data-dismiss="modal" style="margin:2px">Cerrar</button>
-                <button id="buttonEdit" type="button" onclick="update_estrategia({{$misEstrategias->id}})" class="btn btn-success float-right">Actualizar</button>
+                <button id="buttonEdit" type="button" onclick="update_estrategia()" class="btn btn-success float-right">Actualizar</button>
             </div>
           </form>
       </div>

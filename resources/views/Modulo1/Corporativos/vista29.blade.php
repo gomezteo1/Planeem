@@ -26,7 +26,8 @@
 			<p id="MEGA1" ></p>
 
 			<h3 style="text-align: center;" id="Valores">Valores Corporativos</h3>
-            <div id="text4"></div>
+		   
+			<div id="text4"></div>
 
 
 		</div>
@@ -48,10 +49,7 @@
 
 			</div>
 			<div class="modal-body">
-				<p>Una de las mejores maneras de comenzar a redactar la visión es usar frases concisas y en infinitivo que vayan
-					de lo particular a lo global y de lo concreto a lo emotivo.<br>
-					La imagen debe reflejar una aceptación de las características de la empresa, los socios y el equipo. Además.
-					depende completamente de los objetivos estratégicos.
+				<p>Vista{vista29}
 				</p>
 			</div>
 		</div>
@@ -75,7 +73,10 @@ aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
         </div>
 
         <div class="col-7" style="margin: 0 auto;">
-          <h4>¿Desea continuar con el Módulo 2?</h4>
+          <h4>¡Ha finalizado el módulo I de Pensamiento y Direccionamiento estratégico!</h4> 
+			<p>Lo invitamos a continuar con el desarrollo del módulo II de Diagnóstico Estratégico,<br> donde podrá realizar el análisis interno y externo de su Empresa, con el uso de herramientas y matrices que le permiten tener una visión mucho más amplia de su entorno empresarial.  
+			</p>
+			  
           <br>
 		  <a href="{{ route('diagnosticoEstra') }}"  class="buttonModal btn btn-planeem waves-effect waves-light">Si</a>
 		  <a id="no" class="buttonModal btn btn-planeem waves-effect waves-light">No</a>
@@ -118,7 +119,7 @@ aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-
+<script src="{{asset('js/items_plus/option_plus.js')}}" > </script>
 
 <script>
 		$('#no').click(function(){
@@ -158,7 +159,7 @@ aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
 
 
 	<script>
-		// Muestra los Muestra los valores
+// Muestra los la propuesta de valor
       var Propuesta = localStorage.getItem('propuesta');
       var hola = document.getElementById('Propuesta1').innerHTML =Propuesta;
 
@@ -168,7 +169,7 @@ aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
 		   }
 
 
-
+// Muestra  la mision
 
 
 	  var Mision = localStorage.getItem('Mision1');
@@ -181,6 +182,7 @@ aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
 
 
 
+// Muestra la vision
 
 	  var mi_empresa = localStorage.getItem('Vision');
       var hola = document.getElementById('Vision1').innerHTML =mi_empresa;
@@ -189,6 +191,7 @@ aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
 			document.getElementById('Vision').style.display = 'none';
 		   }
 
+// Muestra la mega 		   
 	  var Para = localStorage.getItem('Mega1');
       var hola = document.getElementById('MEGA1').innerHTML =Para;
 
@@ -205,7 +208,7 @@ aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
 
 
 
-<script src="{{asset('js/items_plus/option_plus.js')}}" > </script>
+
 
 
 

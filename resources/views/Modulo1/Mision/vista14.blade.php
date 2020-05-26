@@ -6,7 +6,7 @@
 </header>
 <div class="form-group">
 	<div class="contenedor5">
-    <h2 class="edita">MISIÓN ORGANIZACIONAL</h2>
+    <h2 class="edita">Misión Organizacional</h2>
     <br>
     <p id="Mision6"></p>
   </div>
@@ -18,18 +18,14 @@
     <div class="modal-dialog modal-dialog-scrollable" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalCenterTitle" style="margin-left: 252px; font-weight: bold;">PROPUESTA DE VALOR</h5>
+          <h5 class="modal-title" id="exampleModalCenterTitle" style="margin-left: 252px; font-weight: bold;">Desarrollo De La Misión Organizacional</h5>
           <span class="icon-cancel-circle" style="color:#FC7323; font-size: 32px; cursor: pointer; margin-top: 4px;
           margin-left: 10%;" data-dismiss="modal" aria-label="Close"></span>
 
         </div>
         <div class="modal-body">
-          <p>Son las expectativas que de forma unilateral el consumidor se forma en su mente, es lo que el cliente
-            imagina que obtendrá a la hora de adquirir determinado bien o servicio, en esto podemos influir, pero en
-            mayor parte son las experiencias personales del consumidor y las condiciones generales del mercado lo
-            que determinan sus expectativas personales a la hora de comprar
-            a través de ella determinarás lo que diferencia tu producto o servicio de la competencia, además que te
-          ayudará a encontrar la forma en que atenderás a tus clientes o segmento de mercado. (Saavedra, 2017)</p>
+          <p>Este ítem se desarrollará a través de responder las diferentes preguntas en los recuadros habilitados:
+              ¿Quiénes Somos? ¿Que Buscamos? ¿Para Quienes Trabajamos? ¿Porque lo Hacemos?...VISTA 14)</p>
         </div>
       </div>
     </div>
@@ -48,7 +44,7 @@
         margin-left: 10%;" data-dismiss="modal" aria-label="Close"></span>
       </div>
       <div class="modal-body" style="text-align: center;">
-        <h1>A continuación Visión organizacional</h1>
+        <h1>A Continuación Visión Organizacional</h1>
      </div>
      <div class="modal-footer">
      <a class="buttonModal btn btn-planeem waves-effect waves-light" data-dismiss="modal">Cancelar</a>
@@ -64,7 +60,7 @@
     /*width: 126%;*/
     border: 2px solid #0AB5A0;
   }
-</style> 
+</style>
 <script>
   var Mision6 = localStorage.getItem('Mision1');
   var hola = document.getElementById('Mision6').innerHTML =Mision6;
@@ -85,7 +81,7 @@
 
     $('.valores').mouseenter(function(){
       let mensaje = $(this).attr('mensaje');
-      
+
       $('.hover').html(`<p>${mensaje}</p>`)
       $('.hover').show()
 

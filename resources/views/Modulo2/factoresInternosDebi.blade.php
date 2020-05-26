@@ -77,8 +77,11 @@
 				<div class="modal-content modal-modificado1">
 					<div class="modal-body">
 						<div id="cierra_caja11"><a data-dismiss="modal" aria-label="Close" style="background: white; outline: none !important; margin-left: 93%"><i class="icon-cancel-circle" style="color: #FC7323; font-size: 21px;margin-top: 2%; cursor: pointer;"></i></a> 
-							<p class="Nota">Nota: Son los factores internos que obstaculizan el logro de los objetivos planteados, incluyendo
-							actividades y atributos internos de una organización que inhiben o dificultan el éxito de una empresa. (Prieto 2008)</p>
+							<p class="Nota" style="margin-left: 0.5px; font-weight: bold; font-size: 14px"; >Ponderación: </p>
+                            <p style="font-size: 12px; text-align: justify;">Asigne un peso entre 0.0 (no importante) hasta 1.0 (muy importante),
+                                el peso otorgado a cada factor expresa la importancia relativa del
+                                mismo, y el total de todos los pesos en su conjunto debe tener la suma de 1.0.</p>
+
 						</div>
 					</div>
 				</div>
@@ -140,7 +143,13 @@
 				<div class="modal-content modal-modificado1">
 					<div class="modal-body">
 						<div id="cierre_caja7"><a data-dismiss="modal" aria-label="Close" style="background: white; outline: none !important; margin-left: 93%"><i class="icon-cancel-circle" style="color: #FC7323; font-size: 21px;margin-top: 2%; cursor: pointer;"></i></a>
-							<p class="Nota">Nota: Son los factores internos que obstaculizan el logro de los objetivos planteados, incluyendo actividades y atributos internos de una organización que inhiben o dificultan el éxito de una empresa. (Prieto 2008)</p>
+							<p class="Nota" style="margin-left: 0.5px; font-weight: bold; font-size: 14px"; >Calificación:  </p>
+                            <p style="font-size: 12px; text-align: justify;">Asignar una calificación a cada variable, esta calificación es de 1 a 4. Siendo:<br>
+                                1: Debilidad Mayor.<br>
+                                2: Debilidad Menor.<br>
+                                3: Fortaleza Menor.<br>
+                                4: Fortaleza Mayor.
+							</p>	
 						</div>
 					</div>
 				</div>
@@ -151,8 +160,11 @@
 				<div class="modal-content modal-modificado1">
 					<div class="modal-body">
 						<div id="cierre_caja6"><a data-dismiss="modal" aria-label="Close" style="background: white; outline: none !important; margin-left: 93%"><i class="icon-cancel-circle" style="color: #FC7323; font-size: 21px;margin-top: 2%; cursor: pointer;"></i></a>
-							<p class="Nota">Nota: Son todas las capacidades, atributos y recursos de una organización que contribuyen y apoyan el
-							logro de los objetivos planificados con el fin de obtener ventajas competitivas. (Serna, 2010)</p>
+							<p class="Nota" style="margin-left: 0.5px; font-weight: bold; font-size: 14px"; >Fortalezas:</p>
+                            <p>Son las capacidades esenciales con las que cuenta la compañía,
+                                que le permiten obtener una posición privilegiada frente a la
+                                competencia, por ejemplo, recursos y habilidades que se poseen
+                                o actividades que se desarrollan de forma adecuada....</p>
 						</div>
 					</div>
 				</div>
@@ -163,8 +175,7 @@
 				<div class="modal-content modal-modificado1">
 					<div class="modal-body">
 						<div id="cierra_caja5"><a data-dismiss="modal" aria-label="Close" style="background: white; outline: none !important; margin-left: 93%"><i class="icon-cancel-circle" style="color: #FC7323; font-size: 21px;margin-top: 2%; cursor: pointer;"></i></a> 
-							<p class="Nota">Nota: El perfil de fortalezas y debilidades, se representa gráficamente mediante la calificación de la fortaleza o debilidad con
-							relación a su grado en la escala de Alto (A), Medio (M), y Bajo (B).</p>
+							Debilidades:<br> Son aquellos factores internos que generan una posición desfavorable frente a la competencia, por ejemplo, recursos y habilidades de las que carece o actividades que no se desarrollan de la mejor manera en la organización
 						</div>
 					</div>
 				</div>
@@ -183,29 +194,7 @@
 				</div>
 				<div class="modal-body">
 					<ol style="line-height: 17px; margin-top: -19px;">
-						<b style="color: black; font-weight: bold;">El procedimiento consiste en los siguientes pasos:</b>
-						<br>
-						<li>1. Se obtiene información de las empresas competidoras que serán incluidas en la MPC.</li><br>
-						<li>2. Se enlistan los aspectos o factores a considerar, que bien pueden ser elementos fuertes o débiles, según sea el caso,
-						de cada empresa u organización analizada</li>.<br>
-						<li>3. Se asigna un peso a cada uno de estos factores.</li><br>
-						<li>4. A cada una de las organizaciones enlistadas en la tabla se le asigna una calificación, siendo los valores de las<br>
-							calificaciones los siguientes:
-							<ol width="100%" style="text-align: center">
-								<li>1= Debilidad principal</li><br>
-								<li>2= Debilidad Menor</li><br>
-								<li>3= Fortaleza menor</li><br>
-								<li>4= Fortaleza mayor</li><br>
-							</ol>
-						</li><br>
-
-						<b>
-
-						</b>
-						<li>5. Se multiplica el peso de la segunda columna por cada una de las calificaciones de las organizaciones o empresas
-						competidoras, obteniéndose el peso ponderado correspondiente.</li><br>
-						<li>6. Se suman los totales de la columna del peso (debe ser de 1.00) y de las columnas de los pesos ponderados
-						(Ponce, 2007, pág. 120).</li>
+						{vista factoresInternosDebi}
 					</ol>
 				</div>
 			</div>

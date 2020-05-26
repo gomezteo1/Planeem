@@ -13,11 +13,14 @@
 		<img class="imgdiagnostico animated bounceInDown" src="img/diagnostico.png">
 	</div>
 	<div class="parrafito">
-		<p style="line-height: 23px;margin-left: 80px;width: 80%;font-size: 18px;text-align: justify;" >El diagnóstico estratégico permite llevar a su empresa al logro de procesos, etapas y fases teniendo
-			en cuenta diferentes elementos del diagnóstico basados en el aspecto externo e interno de la
-			empresa, dentro de la cual se busca satisfacer las necesidades de todos los involucrados:
-			accionistas, trabajadores, clientes para ello se requiere la recopilación adecuada de información, y
-			así considerar la causa y consecuencia de cada escenario.</p>
+		<p style="line-height: 23px;margin-left: 80px;width: 80%;font-size: 18px;text-align: justify;" >El diagnóstico estratégico consiste en analizar cuál es la situación de su empresa, en procesos, etapas y fases, teniendo en cuenta diferentes elementos del diagnóstico basados en el aspecto interno y externos, que nos permite satisfacer las necesidades de todos los involucrados: Accionistas, Empleados, Clientes y Stakeholders. 
+			Para ello se requiere la recopilación adecuada de información, y así considerar la causa y consecuencia de cada escenario.
+			En este módulo 2, desarrollaremos 3 pasos importantes donde nos encontraremos con diferentes matrices que nos permiten realizar un análisis interno y externo de nuestra empresa y de esta manera obtener una visión más amplia de nuestro entorno empresarial 
+			<br><strong>Paso 1: Análisis interno</strong>  
+			<br><strong>Paso 2: Análisis externo</strong> 
+			<br><strong>Paso 3: Resultados del Diagnóstico</strong> 
+
+			</p>
 	</div>
 	<br>
 
@@ -35,16 +38,15 @@
 				</div>
 				<div class="modal-body"> 
 					<p>
-						Como realizar la calificación de la Matriz PCI (Perfil de Capacidad interna)
-
-						Para realizar la calificación de la matriz se debe seleccionar la capacidad, identificar si
-						es una fortaleza o debilidad para la empresa, luego si:
-						<br><br>
-						1. Es una fortaleza se debe calificar D si es débil (débil), M si es (media) y A si es (alta)
-						<br>
-						2. Es debilidad debo calificar si es D si es débil (débil), M si es (media) y A si es (alta)
-						Luego, se califica que impacto tiene esa debilidad o fortaleza para la empresa: D(débil),
-						M (media), A(alta)
+						Para realizar la Matriz de Capacidad Interna es fundamental realizar los siguientes pasos:
+						<br>1) se identifica si los factores mencionados representan para su empresa una debilidad o fortaleza.
+						<br>2) Después se debe asignar una calificación a cada factor considerando su importancia de la siguiente manera:
+						<br>A (si es alto).
+						<br>M (si es medio).
+						<br>B (si es bajo).
+						<br>En caso de no aplicar se puede marcar la opción N/A.
+						<br><br>¡Empecemos!
+						{vista diagnosticoEstra}
 					</p>
 				</div>
 			</div>

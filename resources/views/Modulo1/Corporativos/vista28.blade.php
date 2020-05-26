@@ -11,7 +11,7 @@
 <div class="contenedor9">
 
 	<div   class="editavalor">
-<h3 style="color: black; text-align: center;">VALORES CORPORATIVOS</h3>
+<h3 style="color: black; text-align: center;">Valores Corporativos</h3>
 
 
 
@@ -39,6 +39,7 @@
 				<br><br>
 				<a  href="#" style="color:white;" class="aceptarvalor btn btn-planeem waves-effect waves-light">Aceptar</a>
 			</section>
+
 			<!-- Modal de seguir adelante -->
 			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 				<div class="modal-dialog" role="document">
@@ -66,7 +67,6 @@
 
 
 	</div>
-
 </div>
 
 <br>
@@ -86,10 +86,8 @@
 
 			</div>
 			<div class="modal-body">
-				<p>Una de las mejores maneras de comenzar a redactar la visión es usar frases concisas y en infinitivo que vayan
-					de lo particular a lo global y de lo concreto a lo emotivo.<br>
-					La imagen debe reflejar una aceptación de las características de la empresa, los socios y el equipo. Además.
-					depende completamente de los objetivos estratégicos.
+				<p> 
+					{Vista Corporativos->28->90}
 				</p>
 			</div>
 		</div>

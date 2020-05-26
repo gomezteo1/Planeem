@@ -169,7 +169,7 @@
     Route::get('/analisisporter/show/{id}','AnalisisPorterController@getAnswers')->middleware('disablepreventback')->middleware('verified')->middleware('auth');
     Route::post('/analisisportercreate','AnalisisPorterController@store')->name('guardaporter')->middleware('disablepreventback')->middleware('verified')->middleware('auth');
     Route::post('/storageAnsController','storageAnsController@storage')->name('storageAnsController')->middleware('disablepreventback')->middleware('verified')->middleware('auth');
-   
+    
     //Routes de ansorft tipo 1
     Route::post('/ansorftTipo1','AnsorftController@index')->name('tipo1')->middleware('disablepreventback')->middleware('verified')->middleware('auth');
     Route::get('/ansorftTipo1','AnsorftController@index')->name('tipo1')->middleware('disablepreventback')->middleware('verified')->middleware('auth');
@@ -182,10 +182,6 @@
     Route::post('/analisisDofa', 'DofaController@dofa')->name('analisisDofa')->middleware('disablepreventback')->middleware('verified')->middleware('auth');
     
     //Rutas del crud de mis estrategias
-
-   
-    
-
     Route::get('/analisisMisEstrategias', function () {return view('Modulo2.misEstrategiasD.misEstrategiasAnalisis');})->name('misEstrategiasAnalisis')->middleware('disablepreventback')->middleware('verified')->middleware('auth');
     Route::get('/misEstrategiasDI','MisEstrategiasController@index')->name('misEstrategias')->middleware('auth')->middleware('verified');
     Route::get('/misEstrategias/show', 'MisEstretegiasController@show');
@@ -253,3 +249,9 @@
     Route::get('/analisisAnsorft', function () {return view('Modulo2.analisisAnsorft');})->name('analisisAnsorft')->middleware('verified')->middleware('auth');
     
     
+    /*
+     Rutas eliminadas pero existentes con el nuevo diseño 
+         /analisisDofa
+         /getOpoFor
+
+    */
