@@ -5,7 +5,7 @@
 </header>
 <div class="form-group">
 	<div class="Mision">
-		<h5 style="text-align: center; font-weight: bold; padding: 12px;">Valores Corporativos ddsdasdsads </h5>
+		<h5 style="text-align: center; font-weight: bold; padding: 12px;">Valores Corporativos </h5>
 		<p style="padding: 12px; margin-left:50px;">Los Valores Corporativos son el dogma de lo que la empresa es e influyen en todos sus colaboradores.
             Estos definen las líneas de actuación y principios éticos que con el paso del tiempo se transmiten de unos a otros,
             ayudando en la construcción de la cultura organizacional.

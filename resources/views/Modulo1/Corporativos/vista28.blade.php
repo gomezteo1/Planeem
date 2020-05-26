@@ -39,6 +39,7 @@
 				<br><br>
 				<a  href="#" style="color:white;" class="aceptarvalor btn btn-planeem waves-effect waves-light">Aceptar</a>
 			</section>
+
 			<!-- Modal de seguir adelante -->
 			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 				<div class="modal-dialog" role="document">
@@ -66,7 +67,6 @@
 
 
 	</div>
-
 </div>
 
 <br>

@@ -26,7 +26,8 @@
 			<p id="MEGA1" ></p>
 
 			<h3 style="text-align: center;" id="Valores">Valores Corporativos</h3>
-            <div id="text4"></div>
+		   
+			<div id="text4"></div>
 
 
 		</div>
@@ -118,7 +119,7 @@ aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-
+<script src="{{asset('js/items_plus/option_plus.js')}}" > </script>
 
 <script>
 		$('#no').click(function(){
@@ -158,7 +159,7 @@ aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
 
 
 	<script>
-		// Muestra los Muestra los valores
+// Muestra los la propuesta de valor
       var Propuesta = localStorage.getItem('propuesta');
       var hola = document.getElementById('Propuesta1').innerHTML =Propuesta;
 
@@ -168,7 +169,7 @@ aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
 		   }
 
 
-
+// Muestra  la mision
 
 
 	  var Mision = localStorage.getItem('Mision1');
@@ -181,6 +182,7 @@ aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
 
 
 
+// Muestra la vision
 
 	  var mi_empresa = localStorage.getItem('Vision');
       var hola = document.getElementById('Vision1').innerHTML =mi_empresa;
@@ -189,6 +191,7 @@ aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
 			document.getElementById('Vision').style.display = 'none';
 		   }
 
+// Muestra la mega 		   
 	  var Para = localStorage.getItem('Mega1');
       var hola = document.getElementById('MEGA1').innerHTML =Para;
 
@@ -205,7 +208,7 @@ aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
 
 
 
-<script src="{{asset('js/items_plus/option_plus.js')}}" > </script>
+
 
 
 

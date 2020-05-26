@@ -23,14 +23,15 @@
 					<option id="option5" class="valores" mensaje="Estamos comprometidos con la información confidencial de nuestra empresa, tanto en los procesos como en la privacidad de datos de los colaboradores, clientes y Stakeholders" onclick="option5()">Confidencialidad</option>
 					<option  id="option6"  class="valores" mensaje="Promovemos el pensamiento disruptivo de nuestros colaboradores, clientes y stakeholders en pro de generar espacios de construcción, buscando siempre superar expectativas." onclick="option6()" >Creatividad</option>
 					<option id="option7" class="valores" mensaje="Fomentar la responsabilidad con nuestros colaboradores, clientes y stakeholders es la forma de entender nuestra actividad empresarial y la importancia del trabajo bien hecho." onclick="option7()">Compromiso</option>
-					<option id="option8" value="true" class="valores" mensaje="Trabajamos de manera inclusiva con un equipo multidisciplinario, de diferente raza, religión y género, sin discriminación alguna." onclick="option8()">Diversidad</option>
-					<option id="option9" class="valores" mensaje="Actuamos de manera perseverante y ordenada con base en los lineamentos empresariales para satisfacer las necesidades de nuestros colaboradores, clientes, y proveedores." onclick="option9()">Disciplina</option>
+					<option id="option8" class="valores" mensaje="Trabajamos de manera inclusiva con un equipo multidisciplinario, de diferente raza, religión y género, sin discriminación alguna." onclick="option8()">Diversidad</option>
+					<option id="option9" value="true" class="valores" mensaje="Actuamos de manera perseverante y ordenada con base en los lineamentos empresariales para satisfacer las necesidades de nuestros colaboradores, clientes, y proveedores." onclick="option9()">Disciplina</option>
 
 
 				</div>
 
 				<div class="col-md-4 contboton">
-                    <option id="option10" class="valores" mensaje="Basados en los principios y normas de la empresa actuamos desde la cordialidad y entendimiento de las diferencias, escuchando y reconociendo el criterio de cada colaborador o cliente en pro de tomar decisiones correctas para afianzar la credibilidad y la confiabilidad en la empresa." onclick="option10()">Ética</option>
+
+                    <option id="option10"  class="valores" mensaje="Basados en los principios y normas de la empresa actuamos desde la cordialidad y entendimiento de las diferencias, escuchando y reconociendo el criterio de cada colaborador o cliente en pro de tomar decisiones correctas para afianzar la credibilidad y la confiabilidad en la empresa." onclick="option10()">Ética</option>
 
                     <option id="option11" class="valores" mensaje="Buscamos permanentemente habilidades sociales de convivencia que nos permitan entender las actitudes y acciones que guían el comportamiento de nuestros colaboradores, clientes y proveedores." onclick="option11()">Empatía</option>
 

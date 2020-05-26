@@ -1,3 +1,5 @@
+//Se crean acá las opciones y donde se listan es en option.js
+
 function option1() {
 
 
@@ -317,94 +319,47 @@ function option8() {
 }
 
 
-
+//no pasan estos valores
 
 function option9() {
-
-
-
-
     try {
-
-
-
-
         $("#option9").click(function() {
             $("#option9").css({ "background-color": "#FC7323", "border-radius": "50px", "color": "white", "width": "95%" })
-
-
-
             var valor = "Disciplina";
-            var descaript = "Actuamos de manera perseverante y ordenada con base en los" +
-                " lineamentos empresariales para satisfacer las necesidades de nuestros colaboradores, clientes, y proveedores."
-
-
+            var descaript = "Actuamos de manera perseverante y ordenada con base en los lineamentos empresariales para satisfacer las necesidades de nuestros colaboradores,clientes, y proveedores."
             localStorage.setItem('Constancia1', valor);
             localStorage.setItem('Constancia2', descaript);
-
-
-
         });
+        //Con la funcion doble clik se quita lo que se tiene señalado 
         $("#option9").dblclick(function() {
             $("#option9").css({ "cursor": "pointer", "width": "78%", "height": " 9%", "border-radius": "26px", "border": "#FC7323 2px solid", "background-color": "white", "outline": "none", "text-align": "center", "color": "black" })
             localStorage.removeItem('Constancia1');
             localStorage.removeItem('Constancia2');
         });
-
-
-
-
-
     } catch (e) {
         console.log('ERROR', e)
     }
-
-
-
-
 }
 
-
-
 function option10() {
-
-
     try {
-
-
-
         $("#option10").click(function() {
             $("#option10").css({ "background-color": "#FC7323", "border-radius": "50px", "color": "white", "width": "95%" })
-
-
             var valor = "Ética";
-            var descaript = "Basados en los principios y normas de la empresa actuamos desde la cordialidad y entendimiento " +
-                "de las diferencias, escuchando y reconociendo el criterio de cada colaborador o" +
-                " cliente en pro de tomar decisiones correctas para afianzar la credibilidad y la confiabilidad en la empresa."
-
-
+            var descaript = "Basados en los principios y normas de la empresa actuamos desde la cordialidad y entendimiento de las diferencias, escuchando y reconociendo el criterio de cada colaborador o cliente en pro de tomar decisiones correctas para afianzar la credibilidad y la confiabilidad en la empresa."
             localStorage.setItem('Creatividad1', valor);
             localStorage.setItem('Creatividad2', descaript);
-
-
-
         });
         $("#option10").dblclick(function() {
             $("#option10").css({ "cursor": "pointer", "width": "78%", "height": " 9%", "border-radius": "26px", "border": "#FC7323 2px solid", "background-color": "white", "outline": "none", "text-align": "center", "color": "black" })
             localStorage.removeItem('Creatividad1');
             localStorage.removeItem('Creatividad2');
         });
-
-
-
     } catch (e) {
         console.log('ERROR', e)
     }
-
-
-
 }
-
+//no pasan estos valores
 
 
 function option11() {
