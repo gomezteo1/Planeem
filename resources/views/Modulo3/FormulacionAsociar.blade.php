@@ -1,3 +1,10 @@
+<!--
+** Amenanzas y otros estan comentados se van a llamar es mis estrategias esto se da en el controlador formulaciónController
+**
+**
+-->
+
+
 @extends('layouts.nav3')
 
 @section('content')
@@ -13,7 +20,21 @@
 <section class="contenedorAsociar">
 	<div class="estrategias_conten">
 		<h1 style="text-align: center;">Estrategias</h1>
-		@foreach ($debilidad as $debilidad)
+		@foreach ($misEstrategias1 as $mis_estrategias)
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<div class="def-number-input number-input safari_only">
+					<button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
+						<input class="quantity" min="1" max="{{$cantidad}}" name="pocision[]" value="" type="number">
+					<button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+				</div>
+			</div>
+		<input name="id_estrategia[]" value="{{$mis_estrategias->estrategia}}" style="display:none" type="text">
+		<input type="text" class="form-control" id="inputObjetivo" value="{{$mis_estrategias->estrategia}}" placeholder="Estrategia" maxlength="200" aria-label="Objetivo" aria-describedby="basic-addon1">
+		</div> 
+		@endforeach
+
+		{{-- @foreach ($debilidad as $debilidad)
 		<div class="input-group mb-3">
 			<div class="input-group-prepend">
 				<div class="def-number-input number-input safari_only">
@@ -25,9 +46,8 @@
 		<input name="id_estrategia[]" value="{{$debilidad->nombre}}" style="display:none" type="text">
 		<input type="text" class="form-control" id="inputObjetivo" value="{{$debilidad->nombre}}" placeholder="Estrategia" maxlength="200" aria-label="Objetivo" aria-describedby="basic-addon1">
 		</div> 
-		@endforeach
-
-		@foreach ($fortaleza as $fortaleza)
+		@endforeach --}}
+		{{-- @foreach ($fortaleza as $fortaleza)
 		<div class="input-group mb-3">
 			<div class="input-group-prepend">
 				<div class="def-number-input number-input safari_only">
@@ -40,7 +60,6 @@
 		<input type="text" class="form-control" id="inputObjetivo" value="{{$fortaleza->nombre}}" placeholder="Estrategia" maxlength="200" aria-label="Objetivo" aria-describedby="basic-addon1">
 		</div> 
 		@endforeach
-
 		@foreach ($oportunidad as $oportunidad)
 		<div class="input-group mb-3">
 			<div class="input-group-prepend">
@@ -53,10 +72,8 @@
 		<input name="id_estrategia[]" value="{{$oportunidad->nombre}}" style="display:none" type="text">
 		<input type="text" class="form-control" id="inputObjetivo" value="{{$oportunidad->nombre}}" placeholder="Estrategia" maxlength="200" aria-label="Objetivo" aria-describedby="basic-addon1">
 		</div> 
-		@endforeach
-
-		
-		@foreach ($amenaza as $amenaza)
+		@endforeach --}}
+		{{-- @foreach ($amenaza as $amenaza)
 		<div class="input-group mb-3">
 			<div class="input-group-prepend">
 				<div class="def-number-input number-input safari_only">
@@ -68,13 +85,12 @@
 		<input name="id_estrategia[]" value="{{$amenaza->nombre}}" style="display:none" type="text">
 		<input type="text" class="form-control" id="inputObjetivo" value="{{$amenaza->nombre}}" placeholder="Estrategia" maxlength="200" aria-label="Objetivo" aria-describedby="basic-addon1">
 		</div> 
-		@endforeach
+		@endforeach --}}
 	</div>
 	<div class="objetivos_conten">
 		<h1 style="text-align: center;">Objetivos</h1>
 		@foreach ($Objetivos as $Objetivos)
 		<div class="campo_texto2">
-
 			<div class="input-group mb-3">
 				<div class="input-group-prepend">
 				<span class="input-group-text" id="basic-addon1">{{$Objetivos->posiciones}}</span>

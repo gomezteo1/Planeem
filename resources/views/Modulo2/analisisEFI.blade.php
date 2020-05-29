@@ -16,17 +16,15 @@
 			<button class="verde animated rotateInUpRight" id="da" style="opacity: 0.8;"><img src="img/DA_SL.png" style="width: 100px; height: 100px; cursor: context-menu;"></button>
 			<button class="verde animated rotateInUpLeft" id="do" style="opacity: 0.8;"><img src="img/DO_SL.png" style="width: 100px; height: 100px; cursor: context-menu;"></button>
 			<button class="verde animated rotateInDownLeft" id="fa" style="opacity: 0.8;"><img src="img/FA_SL.png" style="width: 100px; height: 100px; cursor: context-menu;"></button>
-			
-			
 		</div>
 		
-<section id="caja_fortaleza">
-	<div id="cierre_fortaleza1"><button value="cierre_fortaleza1" onclick="cierre_fortaleza1()" style="background: white; outline: none !important; margin-left: 93%"><i class="icon-cancel-circle" style="color: #FC7323; font-size: 21px;margin-top: 2%; cursor: pointer;"></i></button> 
-		<p class="Nota">Ponderación:
-                Asigne un peso a cada variable, que va desde 0.0 a 1.0 00: No importante
-                1.0: Muy importante</p>
-	</div>
-</section>
+	<section id="caja_fortaleza">
+		<div id="cierre_fortaleza1"><button value="cierre_fortaleza1" onclick="cierre_fortaleza1()" style="background: white; outline: none !important; margin-left: 93%"><i class="icon-cancel-circle" style="color: #FC7323; font-size: 21px;margin-top: 2%; cursor: pointer;"></i></button> 
+			<p class="Nota">Ponderación:
+					Asigne un peso a cada variable, que va desde 0.0 a 1.0 00: No importante
+					1.0: Muy importante</p>
+		</div>
+	</section>
 
 	<!-- contenedores -->
 		<div class="row">
@@ -84,6 +82,10 @@
   			</div>
 			  <a  href="{{route('analisisAnsorft')}}" style="color:white;" name="nuevo" class="botonDofa btn btn-planeem waves-effect waves-light">Siguiente</a>		</div>
 
+			 
+
+
+
 	</section>
 <div class="infon">
 	
@@ -102,7 +104,7 @@
 			<div class="modal-body">
 				<ol style="line-height: 17px; margin-top: -19px;">
 					<b style="color: black; font-weight: bold;">El procedimiento consiste en los siguientes pasos:</b>
-					<br>
+					<br>el jajas
 					<li>1. Se obtiene información de las empresas competidoras que serán incluidas en la MPC.</li><br>
 					<li>2. Se enlistan los aspectos o factores a considerar, que bien pueden ser elementos fuertes o débiles, según sea el caso,
 					de cada empresa u organización analizada</li>.<br>
@@ -219,6 +221,8 @@
 </div>
 </div>
 </div>
+	
+
 
 </section>
 @yield('script')
@@ -250,7 +254,16 @@
 </script>
 
 
+<script>
+	var id = localStorage.getItem('id')
+	$('#id_planecion').val(id);
+	console.log(id);
 
+	function btn12(){
+		document.getElementById('btn12').click();
+	}
+
+</script>
 
 
 @endsection
