@@ -61,8 +61,13 @@ class FormulacionController extends Controller
             ->where('idPlaneacion', $id)
             ->get();
 
+            $misEstrategias1=DB::table('mis_estrategias')
+            ->select('estrategia')
+            ->join('planeacion', 'mis_estrategias.id_Planeacion' , 'planeacion.id_Planeacion' )
+            ->where('planeacion.id_Planeacion' , $id)
+            ->get();
 
-            return view('Modulo3.FormulacionAsociar')->with(compact('proyecto','Objetivos','cantidad','estrategia','debilidad','fortaleza','amenaza','oportunidad','fortaleza','debilidad'));
+            return view('Modulo3.FormulacionAsociar')->with(compact('misEstrategias1','proyecto','Objetivos','cantidad','estrategia','debilidad','fortaleza','amenaza','oportunidad','fortaleza','debilidad'));
     }
 
     public function guardar(Request $request){

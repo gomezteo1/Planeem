@@ -1,7 +1,7 @@
 @extends('layouts.nav2')
 
 @section('content')
-<header>
+
 	<div class="contenedor4">
 		<h1 style="text-align: center; font-weight: bold; padding: 12px;">Desarrollo de mis Estrategias</h1>
 		<p style="padding: 10px;line-height: 23px;margin-left: 194px;width: 70%;font-size: 18px;text-align: justify;">
@@ -10,12 +10,10 @@
             Aliquid inventore vitae velit nam, reiciendis vero?
 		</p>
 	</div>
-	{{-- <form id="form" style="display:none" action="{{ route('analisisEFI')}}" method="POST" role="form">
-		@csrf
-		<input type="text" name="id_Planeacion" value="{{$id_Planeacion}}">
-		<button type="submit" id="btn1"></button>
-	</form> --}}
-	<a  onclick="btn12()" href="{{route('misEstrategias')}}" style="color:white;" name="nuevo" class="Ahora btn btn-planeem waves-effect waves-light">Iniciar Ahora</a>
+	{{-- <a  onclick="btn12()" href="{{route('misEstrategias')}}" style="color:white;" name="nuevo" class="Ahora btn btn-planeem waves-effect waves-light">Iniciar Ahora</a> --}}
+	<a onclick="btn12()" style="color:white;" name="nuevo" class="botonDofa btn btn-planeem waves-effect waves-light">Siguiente</a>
+	
+
 	<span class="icon-info" data-toggle="modal" data-target="#exampleModalScrollable" style="cursor:pointer;"></span>
 	<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-scrollable" role="document">
@@ -36,14 +34,15 @@
 			</div>
 		</div>
 	</div>
-	
-</section>
 
-<form method="POST" style="display:none" id="form" action="" >
-	@csrf
-		<input type="text" id="id_planecion" name="id_planecion">	
-		<button  type="submit" id="btn12">		
-</form>
+	
+	<form method="get" style="display:none" id="form" action="{{route('misEstrategias')}}" >
+		@csrf
+			<input type="text" id="id_planecion" name="id_planecion">	
+			<button  type="submit" id="btn12">		
+	</form> 
+
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
@@ -75,11 +74,14 @@
 <script>
 	var id = localStorage.getItem('id')
 	$('#id_planecion').val(id);
-	
+	console.log(id);
 
 	function btn12(){
 		document.getElementById('btn12').click();
 	}
 
 </script>
+
+
+  
 @endsection

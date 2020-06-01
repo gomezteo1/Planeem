@@ -153,6 +153,7 @@
     
     //Routes análisis EFI y EFi
     Route::post('/getDebiAmena','AnalisisController@getEFI')->name('analisisEFI')->middleware('disablepreventback')->middleware('verified')->middleware('auth');
+        //esta se saco esta ruta
     Route::post('/getOpoFor','AnalisisController@getDOFA')->name('analisisDOFA')->middleware('disablepreventback')->middleware('verified')->middleware('auth');
     Route::post('/getOpoForb','AnalisisController@getDOFA1')->name('analisisDOFA1')->middleware('disablepreventback')->middleware('verified')->middleware('auth');
 
@@ -181,11 +182,18 @@
     //Dofa
     Route::post('/analisisDofa', 'DofaController@dofa')->name('analisisDofa')->middleware('disablepreventback')->middleware('verified')->middleware('auth');
     
-    //Rutas del crud de mis estrategias
-    Route::get('/analisisMisEstrategias', function () {return view('Modulo2.misEstrategiasD.misEstrategiasAnalisis');})->name('misEstrategiasAnalisis')->middleware('disablepreventback')->middleware('verified')->middleware('auth');
+    //Rutas del crud de mis estrategias Aca vamos
+
+    // Route::get('/analisisMisEstrategias', function () {return view('Modulo2.misEstrategiasD.misEstrategiasAnalisis');})->name('misEstrategiasAnalisis')->middleware('disablepreventback')->middleware('verified')->middleware('auth');
+    Route::get('/analisisMisEstrategias','MisEstrategiasController@info')->name('misEstrategiasAnalisis')->middleware('auth')->middleware('verified');
     Route::get('/misEstrategiasDI','MisEstrategiasController@index')->name('misEstrategias')->middleware('auth')->middleware('verified');
+    
+    // Route::match(['post', 'get'],'/analisisMisEstrategias', function () {return view('Modulo2.misEstrategiasD.misEstrategiasAnalisis');})->name('misEstrategiasAnalisis')->middleware('disablepreventback')->middleware('verified')->middleware('auth');
+    // Route::match(['post', 'get'],'/misEstrategiasDI','MisEstrategiasController@index')->name('misEstrategias')->middleware('auth')->middleware('verified');
+     
     Route::get('/misEstrategias/show', 'MisEstretegiasController@show');
     Route::post('/misEstrategiasDC','MisEstrategiasController@store')->name('misEstrategiasCreate')->middleware('auth')->middleware('verified');
+    
     Route::post('/misEstrategias/update', 'MisEstretegiasController@update');
   
     //Route::post('/misEstrategias','MisEstrategiasController@create')->name('misEstrategiasCreate')->middleware('auth')->middleware('verified');
@@ -254,6 +262,7 @@
     Route::get('resumenObjetivos','ResumenObjetivosController@index')->name('resumenObjetivos');
     Route::post('resumenObjetivos','ResumenObjetivosController@create');
 
+    
 
     /*
      Rutas eliminadas pero existentes con el nuevo diseño 

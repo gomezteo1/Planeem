@@ -29,7 +29,7 @@
               <p class="form-control">
                 {{$misEstrategias->estrategia}}
               </p>
-              <a  id="boton1" onclick="edit_estrategia({{$misEstrategias->id}})" data-toggle="modal" data-target="#show" class="button2_agregar5" ><span class="icon-folder-plus"><div id="hover_agregar1">
+              <a  id="boton1" onclick="edit_estrategia()" data-toggle="modal" data-target="#show" class="button2_agregar5" ><span class="icon-folder-plus"><div id="hover_agregar1">
                 <h5>Editar</h5></div></span>
               </a>
               <a id="boton2_eliminar2" data-toggle="modal" data-target="#exampleModalc" class="boton2_eliminar2"><span class="icon-bin"></span><div id="hover_eliminar">
@@ -51,11 +51,13 @@
               <div class="formulario2">
                   <div class="respuestas2">
                       <div class="wrap" style=" ">
-                          <div class="radio">
-                            <br><br>
+                          <div class="radio" align="center">
                               <a class="agregarVerbo" data-toggle="modal"  data-target="#exampleModal55">FA</a>
+                              <br><br> 
                               <a class="agregarVerbo" data-toggle="modal"  data-target="#exampleModal5">FO</a>
+                              <br><br>
                               <a class="agregarVerbo" data-toggle="modal"  data-target="#exampleModal6">DO<a>
+                              <br>
                               <a class="agregarVerbo" data-toggle="modal"  data-target="#exampleModal7">DA</a>
                             <br><br>
                           </div>

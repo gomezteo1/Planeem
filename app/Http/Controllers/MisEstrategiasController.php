@@ -7,36 +7,35 @@ use App\Http\Controllers\Controller;
 use App\Model\misEstrategias;
 use App\Model\Proyectos;
 use Illuminate\Support\Facades\Validator;
-
 use Illuminate\Http\Request;
 use DB;
-use Illuminate\Contracts\Validation\Validator as ValidationValidator;
-
 class MisEstrategiasController extends Controller
 {
- 
+    public function info(Request $request){
+
+
+        // $id = $request->get('id_planecion');
+        return view('Modulo2.misEstrategiasD.misEstrategiasAnalisis');      
+      
+    }
    
 
     public function index(Request $request)
-    {   
-       
-        $id = $request->input('id_Planeacion');
-        // $id_planeacion = Proyectos::all();
-        //   dd($id);
+    {  
+        //El request no me trae ninguna de estas
+        $id = $request->get('id_planecion');
+        // dd($id);
         
-        
-           
         // $res = respuestaAnalisis::select('respuesta as idRespuesta', 'idanalisis as analisis', 'idPlaneacion as planeacion')
         // ->join('analisis', 'analisis.id', 'respuesta_analisis.idanalisis')
         // ->join('planeacion', 'planeacion.id_Planeacion', 'respuesta_analisis.idPlaneacion')
         // ->where('idPlaneacion', $id)
         // ->get();
 
-
-         $typeA = ['aAlta', 'aMedia', 'aBaja'];
-         $typeO = ['oAlta', 'oMedia', 'oBaja'];
-         $typeF = ['fAlta', 'fMedia', 'fBaja'];
-         $typeD = ['dAlta', 'dMedia', 'dBaja'];
+        $typeA = ['aAlta', 'aMedia', 'aBaja'];
+        $typeO = ['oAlta', 'oMedia', 'oBaja'];
+        $typeF = ['fAlta', 'fMedia', 'fBaja'];
+        $typeD = ['dAlta', 'dMedia', 'dBaja'];
     
         $fortaleza= DB::table('respuesta_capacidad')
         ->select('nombre')
@@ -95,14 +94,18 @@ class MisEstrategiasController extends Controller
         ->where('idPlaneacion', $id)
         ->get();
 
+        // ya me valida con el id de la planeacion
         
-        $misEstrategias1 =  misEstrategias::all();
-    
-        // $misEstrategias=DB::table('mis_estrategias')
-        // ->select('estrategia')
-        // ->join( 'planeacion', 'mis_estrategias.id_Planeacion' , 'planeacion.id_Planeacion' )
-        // ->where( 'planeacion.id_Planeacion' , $id)
-        // ->get();
+        $misEstrategias1=DB::table('mis_estrategias')
+        ->select('estrategia')
+        ->join('planeacion', 'mis_estrategias.id_Planeacion' , 'planeacion.id_Planeacion' )
+        ->where('planeacion.id_Planeacion' , $id)
+        ->get();
+        
+
+        
+        // dd($id);        
+        // $misEstrategias1 =  misEstrategias::all();
         // response()->json($misEstrategias);
 
 

@@ -191,8 +191,8 @@ class AnalisisController extends Controller
 
     public function getEFI(Request $request){
 
-
-        $id = $request->get('id_Planeacion');
+        $id = $request->get('id_planecion');           
+        //  dd($id);
         
         $typeA = ['aAlta', 'aMedia', 'aBaja'];
         $typeO = ['oAlta', 'oMedia', 'oBaja'];
@@ -204,7 +204,7 @@ class AnalisisController extends Controller
         ->whereIn('respuesta', $typeA)
         ->where('idPlaneacion', $id)
         ->get();
-
+        
         $oportunidad=DB::table('respuesta_analisis')
         ->select('analisis.nombre','respuesta_analisis.id')
         ->join('analisis', 'analisis.id', 'respuesta_analisis.idanalisis')
