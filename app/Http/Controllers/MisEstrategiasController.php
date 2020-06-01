@@ -95,11 +95,14 @@ class MisEstrategiasController extends Controller
         ->get();
 
         // ya me valida con el id de la planeacion
+        
         $misEstrategias1=DB::table('mis_estrategias')
         ->select('estrategia')
         ->join('planeacion', 'mis_estrategias.id_Planeacion' , 'planeacion.id_Planeacion' )
         ->where('planeacion.id_Planeacion' , $id)
         ->get();
+        
+
         
         // dd($id);        
         // $misEstrategias1 =  misEstrategias::all();
